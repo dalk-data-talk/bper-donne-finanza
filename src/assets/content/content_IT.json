@@ -1,0 +1,90 @@
+{
+  "title": "Donne e finanza",
+  "sections": [
+    {
+      "type": "Intro",
+      "content": {
+        "title": "Donne e finanza",
+        "subtitle": "L'educazione finanziaria"
+      }
+    },
+    {
+      "type": "SectionOpening",
+      "content": {
+        "title": "Section 1"
+      }
+    },
+    {
+      "type": "Title",
+      "content": {
+        "text": "Alfabetizzazione finanziaria in Italia"
+      }
+    },
+    {
+      "type": "Description",
+      "content": {
+        "text": "L’alfabetizzazione finanziaria in Italia e la condizione femminile rispetto al tema"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at quam id risus tincidunt lacinia ut eget massa. Sed hendrerit tellus a odio finibus, sit amet scelerisque ante sagittis. Sed mollis accumsan finibus. Curabitur efficitur in arcu ac aliquet. Donec at vulputate sem, sed vulputate arcu."
+      }
+    },
+    {
+      "type": "Highlight",
+      "content": {
+        "text": "Queste lacune, sebbene diffuse in tutta la popolazione, possono avere risvolti particolarmente negativi in diversi aspetti della vita di una donna: dal quotidiano, ai progetti a lungo termine, passando per la propria indipendenza. "
+      }
+    },
+    {
+      "type": "SectionOpening",
+      "content": {
+        "title": "Slider"
+      }
+    },
+    {
+      "type": "HorizontalSlider",
+      "content": {
+        "slides": [
+          {
+            "title": "Punto 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "img": ""
+          },
+          {
+            "title": "Punto 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "img": ""
+          },
+          {
+            "title": "Punto 3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "img": ""
+          },
+          {
+            "title": "Punto 4",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "img": ""
+          },
+          {
+            "title": "Punto 5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "img": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "SectionOpening",
+      "content": {
+        "title": "Note"
+      }
+    },
+    {
+      "type": "Notes",
+      "content": {}
+    }
+  ]
+}

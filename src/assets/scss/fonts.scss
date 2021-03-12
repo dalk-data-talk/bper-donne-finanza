@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Poppins:wght@500&display=swap');
+
+@mixin intro-title {
+  font-family: Josefin Slab;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 100px;
+  color: $green-wise;
+}
+
+@mixin intro-subtitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 0.02em;
+  color: $nude-mahogany;
+}
+
+@mixin section-opening-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+@mixin title {
+  font-family: Josefin Slab;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 80px;
+  color: $green-wise;
+}
+
+@mixin description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: $nude-mahogany;
+}
+
+@mixin paragraph {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: $green-wise;
+}
+
+@mixin highlight {
+  font-family: Josefin Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  color: $green-wise;
+}
+
+@mixin slider-element-title {
+  font-family: Josefin Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: $nude-mahogany;
+}
+
+@mixin slider-element-description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: $green-wise;
+}
