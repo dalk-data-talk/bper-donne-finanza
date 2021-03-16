@@ -1,6 +1,7 @@
 <template>
   <div class="longform">
-    <LongformContent/>
+    <LoadingPage v-if="isLoading" v-on:finishedLoadingAnimation="finishedAnimation"/>
+    <LongformContent v-else/>
     <!-- esempio bootstrap -->
     <!-- <b-container class="bv-example-row">
       <b-row>
@@ -13,14 +14,30 @@
 </template>
 
 <script>
+import LoadingPage from '../components/LoadingPage.vue'
 import LongformContent from '../components/LongformContent.vue'
 export default {
   name: 'Longform',
-  props: {
-
-  },
+  props: [],
   components: {
+    LoadingPage,
     LongformContent
+  },
+  data: function () {
+    return {
+      isLoading: true,
+    }
+  },
+  created() {
+  },
+  destroyed() {
+  },
+  mounted() {
+  },
+  methods: {
+    finishedAnimation(){
+      this.isLoading = false
+    }
   }
 }
 </script>
@@ -31,6 +48,7 @@ export default {
 @import "@/assets/scss/colors.scss";
 
 .longform{
+  background-color: $rose-quartz;
   .bv-example-row{
     background-color: black;
   }
