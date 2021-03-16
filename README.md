@@ -1,4 +1,4 @@
-# Donne e finanza - Bper
+# Donne e finanza - BPER
 Il divario di competenze a livello economico tra uomini e donne è un tema complesso, legato a diversi fattori culturali, storici e sociali. 
 Vista la sua influenza, anche nel mondo di oggi, è necessario affrontarlo alla base: proponendo non solo strumenti, ma soluzioni educative finalizzate allo sviluppo di una maggiore consapevolezza finanziaria. 
 
