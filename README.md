@@ -7,10 +7,10 @@ Le conseguenze di una scarsa educazione sul tema, essendo particolarmente negati
 Per combatterli, è fondamentale sensibilizzare le donne riguardo le possibilità che un’educazione finanziaria coerente può offrire.
 
 ### Casi studio
-[Designed by Women](https://designedbywomen.org/)
+[Designed by Women](https://designedbywomen.org/)<br/>
 Designed by Women è una iniziativa della Stewart Program for Modern Design in collaborazione con la Montreal Museum of Fine Arts con l’obiettivo di dare maggiore visibilità a designers donne nel mondo. Il sito web viene preso come riferimento per la trattazione dei caratteri tipografici e l’impostazione del layout.
 
-[Antara Studio](https://antara.studio/about/)
+[Antara Studio](https://antara.studio/about/)<br/>
 Il sito/portfolio dello studio di design Antara viene usato come riferimento per quanto riguarda le animazioni dei testi.
 
 ### Documento kick-off
