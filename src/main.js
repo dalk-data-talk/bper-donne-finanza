@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
+import VueCarousel from 'vue-carousel';
 import App from './App.vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VScrollLock from 'v-scroll-lock'
@@ -11,6 +12,7 @@ Vue.use(VScrollLock)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(VueScrollTo)
+Vue.use(VueCarousel);
 
 Vue.config.productionTip = false
 
