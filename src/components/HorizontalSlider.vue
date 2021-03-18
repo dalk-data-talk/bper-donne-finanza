@@ -1,10 +1,12 @@
 <template>
   <div class="horizontal-slider-container">
-    <div v-for="(slide,s) in content.slides" :key="s">
-      <div class="image" v-text="slide.img"></div>
-      <div class="title" v-text="slide.title"></div>
-      <div class="description" v-text="slide.description"></div>
-    </div>
+    <carousel :per-page="5" :scrollPerPage="false" :paginationEnabled="false" :navigationEnabled="true" :navigationNextLabel="'next'">
+      <slide v-for="(slide,s) in content.slides" :key="s">
+        <div class="image" v-text="slide.img"></div>
+        <div class="title" v-text="slide.title"></div>
+        <div class="description" v-text="slide.description"></div>
+      </slide>
+    </carousel>
   </div>
 </template>
 
