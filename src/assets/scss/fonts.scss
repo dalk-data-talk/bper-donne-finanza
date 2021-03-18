@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Poppins:wght@500&display=swap');
 
+@mixin loading-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100px;
+  text-align: center;
+  color: $nude-mahogany;
+}
+
 @mixin intro-title {
   font-family: Josefin Slab;
   font-style: italic;
   font-weight: normal;
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.05em;
   color: $green-wise;
 }
 
@@ -13,8 +25,28 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
   letter-spacing: 0.02em;
+  color: $nude-mahogany;
+}
+
+@mixin menu-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 31px;
+  color: $rose-quartz;
+}
+
+@mixin menu-number {
+  font-family: Josefin Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
   color: $nude-mahogany;
 }
 
@@ -59,6 +91,15 @@
   font-size: 50px;
   line-height: 56px;
   letter-spacing: -0.01em;
+  color: $green-wise;
+}
+
+@mixin caption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
   color: $green-wise;
 }
 
