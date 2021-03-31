@@ -1,7 +1,8 @@
 <template>
   <div class="longform">
-    <LoadingPage v-if="isLoading" v-on:finishedLoadingAnimation="finishedAnimation"/>
-    <LongformContent v-else/>
+    <!-- <LoadingPage v-if="isLoading" v-on:finishedLoadingAnimation="finishedAnimation"/>
+    <LongformContent v-else/> -->
+    <LongformContent/>
     <!-- esempio bootstrap -->
     <!-- <b-container class="bv-example-row">
       <b-row>
@@ -14,13 +15,11 @@
 </template>
 
 <script>
-import LoadingPage from '../components/LoadingPage.vue'
 import LongformContent from '../components/LongformContent.vue'
 export default {
   name: 'Longform',
   props: [],
   components: {
-    LoadingPage,
     LongformContent
   },
   data: function () {
