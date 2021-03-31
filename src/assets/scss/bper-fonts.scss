@@ -1,0 +1,283 @@
+@font-face {
+  font-family: KievitOT;
+  src: local(KievitOT-Thin),
+    url("~@/assets/fonts/KievitOT-Light.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@mixin title--desktop {
+  font-family: KievitOT;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+@mixin intro-title--desktop {
+  font-family: KievitOT;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 0.43;
+}
+
+@mixin numeric-highlight-number {
+  font-family: KievitOT;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 0.45;
+  text-align: right;
+  color: $bper-verde-scuro;
+}
+
+@mixin intro-title {
+  font-family: KievitOT;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  color: $bper-verde-scuro;
+}
+
+@mixin highlight--desktop {
+  font-family: KievitOT;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+title {
+  font-family: KievitOT;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: $bper-verde-scuro;
+}
+
+@mixin paragraph-bold--desktop {
+  font-family: KievitOT;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.58;
+}
+
+@mixin intro-caption--desktop {
+  font-family: KievitOT;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: $bper-verde-chiaro;
+}
+
+@mixin numeric-highlight-number-small {
+  font-family: KievitOT;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 0.75;
+  text-align: center;
+  color: $bper-verde-scuro;
+}
+
+@mixin paragraph--desktop {
+  font-family: KievitOT;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.58;
+}
+
+@mixin paragraph-italic--desktop {
+  font-family: KievitOT;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.58;
+}
+
+@mixin highlight {
+  font-family: KievitOT;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.33;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
+@mixin viz-full-title {
+  font-family: KievitOT;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 0.95;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
+@mixin section-opening-title--desktop {
+  font-family: KievitOT;
+  font-size: 21px;
+  line-height: 4.76;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
+@mixin numeric-highlight-descriptor {
+  font-family: KievitOT;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.05;
+  text-align: left;
+  color: $bper-verde-scuro;
+}
+
+@mixin viz-title {
+  font-family: KievitOT;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
+@mixin menu-title-selected {
+  font-family: KievitOT;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  text-align: left;
+  color: $bper-bianco;
+}
+
+@mixin menu-title {
+  font-family: KievitOT;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.11;
+  text-align: left;
+  color: $bper-bianco;
+}
+
+@mixin loading-text {
+  font-family: KievitOT;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  color: $bper-bianco;
+}
+
+@mixin voce-glossario-title {
+  font-family: KievitOT;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 6.25;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
+@mixin footer-title {
+  font-family: KievitOT;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: $bper-bianco;
+}
+
+@mixin section-opening-title {
+  font-family: KievitOT;
+  font-size: 16px;
+  line-height: 6.25;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
+@mixin viz-full-description {
+  font-family: KievitOT;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.13;
+  text-align: left;
+  color: $bper-bianco;
+}
+
+@mixin numeric-highlight-didascalia {
+  font-family: KievitOT;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: $bper-verde-scuro;
+}
+
+@mixin intro-caption {
+  font-family: KievitOT;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: $bper-verde-chiaro;
+}
+
+@mixin menu-number {
+  font-family: KievitOT;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
+@mixin numeric-highlight-title {
+  font-family: KievitOT;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
+@mixin footer-text-element-bold {
+  font-family: KievitOT;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  color: $bper-bianco;
+}
+
+@mixin paragraph {
+  font-family: KievitOT;
+  font-size: 14px;
+  line-height: 1.57;
+  text-align: left;
+  color: $bper-verde-scuro;
+}
+
+@mixin footer-text-element {
+  font-family: KievitOT;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  color: $bper-bianco;
+}
+
+@mixin viz-full-source {
+  font-family: KievitOT;
+  font-size: 12px;
+  text-align: left;
+  color: $bper-bianco;
+}
+
+@mixin numeric-highlight-source {
+  font-family: KievitOT;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+  color: $bper-verde-scuro;
+}
+
+@mixin viz-source {
+  font-family: KievitOT;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+  color: $bper-bianco;
+}
