@@ -19,6 +19,35 @@
       "content": {
         "text": "Alfabetizzazione finanziaria <span class='lightgreen'>in Italia</span>"
       }
+    },
+    {
+      "type": "Highlight",
+      "content": {
+        "text": "Il processo attraverso il quale i consumatori, i risparmiatori e gli investitori migliorano le loro capacità di comprensione dei prodotti finanziari e dei concetti che ne sono alla base e attraverso istruzioni, informazioni, consigli sviluppano attitudini e conoscenze atte a comprendere i rischi e le opportunità di fare scelte informate […]"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Secondo l’OCSE, è questa la definizione di educazione finanziaria: un tema sempre più centrale nel mondo di oggi, dove i mercati e il sistema economico diventano via via più complessi.<br/>Un insieme di conoscenze, un mezzo, ma anche un’opportunità e un punto di partenza per migliorare la propria condizione finanziaria e non solo – specialmente quando si parla di donne.<br/>La situazione su questo fronte, però, non è ancora troppo rosea; in particolare, nel nostro paese.<br/>Stando a un’indagine dell’OCSE sul tema - dal titolo OECD/INFE 2020 International Survey of Adult Financial Literacy - che ha coinvolto gli adulti di 26 paesi, nessuna nazione considerata brilla in quanto ad alfabetizzazione finanziaria. Nonostante un punteggio massimo di 21, i singoli individui dell'intero campione hanno infatti ottenuto in media un punteggio di 12,7; un numero che rappresenta conoscenze basilari e comportamenti finanziari tendenzialmente prudenti."
+      }
+    },
+    {
+      "type": "NumericHighlight",
+      "content": {
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Ma se il problema è comune, l’Italia ha il “primato” per quanto riguarda il punteggio minimo, fermo a 11,1. Un punteggio che si abbassa ulteriormente quando si considera solo la popolazione femminile, ferma a un punteggio di 10.9."
+      }
+    },
+    {
+      "type": "Viz",
+      "content": {
+        
+      }
     }
   ]
 }
