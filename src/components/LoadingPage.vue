@@ -68,16 +68,19 @@ export default {
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: $rose-quartz;
+  background-color: $bper-verde-scuro;
   .loading-text{
     position: relative;
+    color: $bper-bianco;
+    @include loading-text;
+    padding-bottom: 24px;
   }
   .horizontal-line-container{
     position: relative;
     width: 100%;
     .horizontal-line{
       height: 1px;
-      background-color: $nude-mahogany;
+      background-color: $bper-verde-chiaro;
     }
   }
 }
