@@ -40,8 +40,8 @@ export default {
   }
   .subtitle{
     @include intro-caption;
-    padding-left: 72px;
-    padding-right: 72px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 </style>
