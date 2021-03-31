@@ -20,6 +20,7 @@ import NumericHighlight from '../components/NumericHighlight.vue'
 import HorizontalSlider from '../components/HorizontalSlider.vue'
 import Notes from '../components/Notes.vue'
 import Viz from '../components/Viz.vue'
+import ImgStatic from '../components/ImgStatic.vue'
 export default {
   mounted: function() {
   },
@@ -35,7 +36,8 @@ export default {
     NumericHighlight,
     HorizontalSlider,
     Notes,
-    Viz
+    Viz,
+    ImgStatic
   }
 };
 </script>

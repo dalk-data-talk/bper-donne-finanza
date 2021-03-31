@@ -118,6 +118,10 @@
       "content": {
         "text": "La stessa parola “patrimonio” deriva dall’unione dei termini latini pater (padre) e munus (dovere), significando in origine il “dovere del padre”."
       }
+    },
+    {
+      "type": "ImgStatic",
+      "content": {}
     }
   ]
 }
