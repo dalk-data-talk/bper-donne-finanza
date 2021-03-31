@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    {
+      "name": "zeplin-cli-connect-plugin-vue"
+    }
+  ],
+  "projects": [
+    "60537bfab04a341bb4d696d6"
+  ],
+  "components": [
+    {
+      "path": "src/components/SectionOpening.vue",
+      "zeplinIds": [
+        "60634b1213079b9c86f76d48"
+      ]
+    }
+  ],
+  "github": {
+    "repository": "dalkdatatalk/bper-donne-finanza"
+  }
+}
