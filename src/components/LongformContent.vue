@@ -38,9 +38,9 @@ export default {
 
 <!-- Use preprocessors via the lang attribute! e.g. <style lang="scss"> -->
 <style lang="scss" scoped>
-@import "@/assets/scss/fonts.scss";
 @import "@/assets/scss/colors.scss";
+@import "@/assets/scss/fonts.scss";
 .longform-content{
-  background-color: $rose-quartz;
+  background-color: $bper-bianco;
 }
 </style>
