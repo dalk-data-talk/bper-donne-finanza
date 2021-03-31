@@ -1,7 +1,13 @@
 <template>
   <div class="intro-container">
-    <div class="title" v-text="content.title"></div>
-    <div class="subtitle" v-text="content.subtitle"></div>
+    <b-container>
+      <b-row>
+        <b-col>
+          <div class="title" v-html="content.title"></div>
+          <div class="subtitle" v-text="content.subtitle"></div>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -18,8 +24,8 @@ export default {
 
 <!-- Use preprocessors via the lang attribute! e.g. <style lang="scss"> -->
 <style lang="scss" scoped>
-@import "@/assets/scss/fonts.scss";
 @import "@/assets/scss/colors.scss";
+@import "@/assets/scss/bper-fonts.scss";
 .intro-container{
   position: relative;
   width: 100%;
@@ -30,11 +36,12 @@ export default {
   align-items: center;
   .title{
     @include intro-title;
-    text-align: center;
+    padding-bottom: 24px;
   }
   .subtitle{
-    @include intro-subtitle;
-    text-align: center;
+    @include intro-caption;
+    padding-left: 72px;
+    padding-right: 72px;
   }
 }
 </style>
