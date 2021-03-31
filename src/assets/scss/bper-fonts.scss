@@ -1,8 +1,44 @@
+// @font-face {
+//   font-family: KievitOT;
+//   src: local(KievitOT-Thin),
+//     url("~@/assets/fonts/KievitOT-Light.woff") format("woff");
+//   font-weight: 100;
+//   font-style: normal;
+//   font-stretch: normal;
+// }
+
 @font-face {
   font-family: KievitOT;
-  src: local(KievitOT-Thin),
-    url("~@/assets/fonts/KievitOT-Light.woff") format("woff");
-  font-weight: 100;
+  src: local(KievitOT-LightItalic),
+  url("~@/assets/fonts/KievitOT-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: KievitOT;
+  src: local(KievitOT-Light),
+  url("~@/assets/fonts/KievitOT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: KievitOT;
+  src: local(KievitOT-Regular),
+  url("~@/assets/fonts/KievitOT-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: KievitOT;
+  src: local(KievitOT-Medium),
+  url("~@/assets/fonts/KievitOT-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
 }
@@ -46,7 +82,7 @@
   line-height: 1.2;
 }
 
-title {
+@mixin title {
   font-family: KievitOT;
   font-size: 32px;
   font-weight: normal;
@@ -56,6 +92,14 @@ title {
   letter-spacing: normal;
   text-align: left;
   color: $bper-verde-scuro;
+}
+
+@mixin title-lightgreen {
+  font-family: KievitOT;
+  font-size: 32px;
+  line-height: 1.13;
+  text-align: left;
+  color: $bper-verde-chiaro;
 }
 
 @mixin paragraph-bold--desktop {
@@ -118,6 +162,7 @@ title {
 @mixin section-opening-title--desktop {
   font-family: KievitOT;
   font-size: 21px;
+  font-weight: 500;
   line-height: 4.76;
   text-align: left;
   color: $bper-verde-chiaro;
@@ -187,7 +232,6 @@ title {
 @mixin section-opening-title {
   font-family: KievitOT;
   font-size: 16px;
-  line-height: 6.25;
   text-align: left;
   color: $bper-verde-chiaro;
 }
@@ -213,6 +257,7 @@ title {
   font-family: KievitOT;
   font-size: 16px;
   font-weight: 300;
+  line-height: 18px;
   text-align: center;
   color: $bper-verde-chiaro;
 }
