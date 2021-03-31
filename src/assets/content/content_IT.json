@@ -67,6 +67,57 @@
         "img": "",
         "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
       }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Utilizzando il medesimo approccio, anche la nostrana Banca d’Italia si è occupata di fotografare le conoscenze economiche del paese, riscontrando gli stessi deficit e soprattutto lo stesso gap di genere nella sua indagine 2020 sull’educazione finanziaria."
+      }
+    },
+    {
+      "type": "Viz",
+      "content": {
+        "title": "Alfabetizzazione in Italia per genere",
+        "description": "Punteggi medi di alfabetizzazione finanziaria e delle sue componenti (2017-2020)",
+        "img": "",
+        "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Secondo gli autori della ricerca, sono soprattutto casalinghe e pensionate a contribuire all’ampliamento della distanza, ma prendendo in considerazione le fasce più giovani la panoramica non cambia molto.<br/><br/>Nei risultati dell’ultima tornata di test Pisa – l'indagine internazionale triennale promossa sempre dall’OCSE per accertare le competenze dei quindicenni scolarizzati – relativi al 2018, l’Italia emerge come l’unico paese dove gli studenti maschi ottengono in media punteggi più alti nell’alfabetizzazione finanziaria rispetto alle studentesse: 15 sono i punti di distacco, mentre negli altri paesi il gender gap è in media di soli due punti.<br/><br/>La domanda sorge spontanea."
+      }
+    },
+    {
+      "type": "Highlight",
+      "content": {
+        "text": "Perché in Italia le donne appaiono così impreparate in termini di conoscenze finanziarie?"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Per trovare la risposta, è necessario partire dalle basi.<br/>Le donne possiedono ormai un'istruzione pari a quella degli uomini, occupano posizioni lavorative importanti e sono assolutamente in grado di prendere in mano la propria situazione economica, ma a livello di cultura e tradizione è ancora difficile per molti italiani associare il concetto di donna a quello di denaro."
+      }
+    },
+    {
+      "type": "SectionOpening",
+      "content": {
+        "title": "capitolo 2"
+      }
+    },
+    {
+      "type": "Title",
+      "content": {
+        "text": "<span class='lightgreen'>Gender gap</span> nelle conoscenze finanziarie"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "La stessa parola “patrimonio” deriva dall’unione dei termini latini pater (padre) e munus (dovere), significando in origine il “dovere del padre”."
+      }
     }
   ]
 }
