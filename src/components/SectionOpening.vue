@@ -41,8 +41,9 @@ export default {
   }
   .line{
     width: 100%;
-    height: 0.5px;
+    height: .75px;
     background-color: $bper-verde-scuro;
+    margin-bottom: 16px;
   }
 }
 </style>
