@@ -16,6 +16,7 @@ import Title from '../components/Title.vue'
 import Description from '../components/Description.vue'
 import Paragraph from '../components/Paragraph.vue'
 import Highlight from '../components/Highlight.vue'
+import NumericHighlight from '../components/NumericHighlight.vue'
 import HorizontalSlider from '../components/HorizontalSlider.vue'
 import Notes from '../components/Notes.vue'
 export default {
@@ -30,6 +31,7 @@ export default {
     Description,
     Paragraph,
     Highlight,
+    NumericHighlight,
     HorizontalSlider,
     Notes
   }
