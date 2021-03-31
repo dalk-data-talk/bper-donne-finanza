@@ -35,6 +35,22 @@
     {
       "type": "NumericHighlight",
       "content": {
+        "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
+        "rows": [
+          {
+            "number": "26",
+            "descriptor": "paesi<br/>intervistati"
+          },
+          {
+            "number": "21",
+            "descriptor": "punteggio<br/>massimo"
+          },
+          {
+            "number": "12,7",
+            "descriptor": "media<br/>punteggio"
+          }
+        ],
+        "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
       }
     },
     {
