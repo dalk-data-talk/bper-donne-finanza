@@ -62,7 +62,10 @@
     {
       "type": "Viz",
       "content": {
-        
+        "title": "punteggi di alfabetizzazione finanziaria",
+        "description": "La posizione dell’Italia rispetto gli altri paesi europei",
+        "img": "",
+        "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
       }
     }
   ]
