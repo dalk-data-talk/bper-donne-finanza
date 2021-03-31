@@ -26,6 +26,7 @@ export default {
 @import "@/assets/scss/bper-fonts.scss";
 @import "@/assets/scss/colors.scss";
 .title-container{
+  padding-bottom: 32px;
   .title{
     padding-right: 100px;
     @include title;
