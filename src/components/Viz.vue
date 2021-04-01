@@ -43,6 +43,13 @@ export default {
   .description{
     padding-right: 100px;
     @include footer-text-element;
+    padding-bottom: 24px;
+  }
+  .img{
+    width: 100%;
+    height: 480px;
+    background-color: $bper-verde-chiaro;
+    margin-bottom: 24px;
   }
   .source{
     @include viz-source;
