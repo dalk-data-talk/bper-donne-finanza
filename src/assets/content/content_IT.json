@@ -121,7 +121,152 @@
     },
     {
       "type": "ImgStatic",
-      "content": {}
+      "content": {
+
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Le cose sono sicuramente cambiate dal tempo dei romani, ma l’ambito economico rimane qualcosa di legato al mondo maschile. Basti pensare come gli uomini siano tutt’ora identificati (a livello di senso comune) come i responsabili delle entrate mensili, mentre alle donne rimane la gestione della casa e dei figli. Di conseguenza, anche le scelte finanziarie rimangono competenza maschile se sono gli uomini ad avere più soldi da gestire.<br/><br/>Si tratta di stereotipi di genere duri a morire, anche nell’educazione delle donne più giovani. Come riassume bene Elisabetta Ruspini – professoressa dell’Università degli Studi di Milano-Bicocca e responsabile degli studi di genere per l’Associazione sociologi italiani – «il problema è che quando si parla di donne e denaro si tende a proteggere, non a educare.»"
+      }
+    },
+    {
+      "type": "Highlight",
+      "content": {
+        "text": "Perché in Italia le donne appaiono così impreparate in termini di conoscenze finanziarie?"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Secondo un recente Rapporto Consob sulle scelte di investimento delle famiglie italiane, le donne hanno infatti conoscenze finanziarie simili a quelle del partner (o comunque non così distanti come potrebbero pensare), ma hanno meno fiducia nelle proprie capacità. Sono convinte di non essere all'altezza di affrontare questi argomenti, che vengono vissuti come molto tecnici e quindi maschili.<br/><br/>Anche la ricerca già citata della Banca d’Italia dimostra come gli uomini sopravvalutano in generale le proprie competenze, a differenza delle donne, che invece le sottostimano ma ottengono punteggi sopra la media."
+      }
+    },
+    {
+      "type": "Viz",
+      "content": {
+        "title": "Sottostima delle proprie conoscenze finanziarie*",
+        "description": "*Soggetti che valutano le proprie competenze sotto la media, ma ottengono punteggi sopra la media",
+        "img": "",
+        "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Serve un po’ di coraggio, e di consapevolezza, per cambiare le statistiche ed evitare che le donne si allontanino sempre di più dalla gestione del denaro. Non solo perché ne hanno le capacità, ma perché le conseguenze di una mancata educazione finanziaria sono più pesanti per la parte femminile della popolazione."
+      }
+    },
+    {
+      "type": "SectionOpening",
+      "content": {
+        "title": "capitolo 3"
+      }
+    },
+    {
+      "type": "Title",
+      "content": {
+        "text": "<span class='lightgreen'>Conseguenze</span> dell’analfabetismo finanziario femminile"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Meno conoscenza significa meno autonomia, in primis; un’equazione che viene aggravata da un minore accesso al mondo del lavoro e da redditi più bassi, e che si trasforma in un circolo vizioso che mina profondamente l’indipendenza economica femminile."
+      }
+    },
+    {
+      "type": "ImgStatic",
+      "content": {
+
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Secondo una delle ultime ricerche del Museo Nazionale del Risparmio, neanche metà del campione femminile intervistato si dichiara autosufficiente dal punto di vista economico."
+      }
+    },
+    {
+      "type": "Viz",
+      "content": {
+        "title": "Indipendenza economica",
+        "description": "Lei è personalmente indipendente da un punto di vista economico?",
+        "img": "",
+        "source": "Fonte: La gestione del risparmio, Museo Nazionale del Risparmio"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "La pandemia poi ha acuito le difficoltà: stando agli ultimi dati Istat, dei 444mila occupati in meno registrati in Italia in tutto il 2020, il 70% è costituito da donne."
+      }
+    },
+    {
+      "type": "Highlight",
+      "content": {
+        "text": "In questo contesto, diventa quindi fondamentale essere a conoscenza degli strumenti migliori per gestire il proprio patrimonio e garantire la propria autonomia, anche in situazioni complicate."
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Senza le nozioni di base sulla gestione del denaro, è più difficile programmare il futuro e anche entrare nel mercato del lavoro. Vengono precluse possibilità imprenditoriali e avere voce in capitolo nelle scelte comuni in famiglia diventa quasi impossibile. La crescita personale rischia di bloccarsi, perché non ci sono i mezzi e le condizioni necessarie.<br/><br/>La situazione dell’imprenditoria femminile in Italia, in questo senso, è rappresentativa."
+      }
+    },
+    {
+      "type": "Viz",
+      "content": {
+        "title": "imprenditoria femminile",
+        "description": "Settori",
+        "img": "",
+        "source": "Fonte: Unioncamere.gov"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Le imprese femminili in Italia sono una su cinque e spesso hanno un accesso più limitato al credito rispetto a quelle guidate da uomini, e quando lo ottengono ricevono maggiori richieste di garanzie. Inoltre, le donne non chiedono perché pensano di ricevere una risposta negativa, mentre chi finanzia vuole più rassicurazioni – e qui si torna al vero punto di partenza, quello culturale.<br/><br/>Lo stesso che fa sì che, a livello quotidiano, siano invece le donne a gestire le finanze domestiche; tranne per quanto riguarda le spese importanti e straordinarie, anche in questo caso appannaggio maschile per una “mancanza di dimestichezza con gli argomenti in questione”, come testimonia la già citata ricerca del Museo del Risparmio. "
+      }
+    },
+    {
+      "type": "Viz",
+      "content": {
+        "title": "indipendenza economica",
+        "description": "Chi decide?",
+        "img": "",
+        "source": "Fonte: La gestione del risparmio, Museo Nazionale del Risparmio"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "Dalle statistiche globali arrivano però buone notizie, le donne stanno guadagnando punti: risparmiano di più, si indebitano meno, i loro depositi crescono del 14% rispetto al 9% degli uomini, e rappresentano una fetta di mercato molto interessante (36%). Le percentuali appartengono al rapporto The economics of banking on women – basato sui dati dell’associazione no profit Gba - Global banking alliance for women – e riguardano 25 banche di 23 Paesi, prendendo in considerazione oltre 32 milioni di clienti donne che aiutano a definire una fotografia migliore per il futuro."
+      }
+    },
+    {
+      "type": "NumericHighlight",
+      "content": {
+        "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
+        "rows": [
+          {
+            "number": "<span class='small'>+</span>14<span class='small'>%</span>",
+            "descriptor": "crescita<br/>depositi donne"
+          },
+          {
+            "number": "<span class='small'>+</span>9<span class='small'>%</span>",
+            "descriptor": "crescita<br/>depositi uomini"
+          }
+        ],
+        "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
+      }
+    },
+    {
+      "type": "Highlight",
+      "content": {
+        "text": "Un futuro che punta a una maggiore emancipazione femminile, che può partire proprio dall’educazione finanziaria e dalla consapevolezza dei propri diritti, dei propri ruoli e delle proprie possibilità."
+      }
     }
   ]
 }
