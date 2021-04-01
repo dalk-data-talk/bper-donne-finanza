@@ -13,6 +13,12 @@
       "zeplinIds": [
         "60634b1213079b9c86f76d48"
       ]
+    },
+    {
+      "path": "src/components/Highlight.vue",
+      "zeplinIds": [
+        "60634b120555d113d8bb0be7"
+      ]
     }
   ],
   "github": {
