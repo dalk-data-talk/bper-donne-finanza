@@ -1,5 +1,5 @@
 <template>
-  <div class="title-container">
+  <div :id="content.id" class="title-container">
     <b-container>
       <b-row>
         <b-col>
@@ -11,12 +11,36 @@
 </template>
 
 <script>
+import gsap from 'gsap'
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 export default {
   name: 'Title',
   props: ["content"],
+  data: function () {
+    return {
+      tl: null
+    }
+  },
   mounted() {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.set("#" + this.content.id + " .title" ,{autoAlpha: 0, x: -20, skewX: -20});
+    this.scrollAnimation();
   },
   methods: {
+    scrollAnimation() {
+      this.tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#" + this.content.id + " .title",
+          start: "55% 55%",
+          end: "+=100",
+          markers: false,
+          scrub: true,
+          pin: false,
+        }
+      });
+      this.tl.to("#" + this.content.id + " .title", {x: 0, autoAlpha: 1, skewX: 8, duration: .75, ease: "back.out(1.7)"})
+      this.tl.to("#" + this.content.id + " .title", {skewX: 0, duration: .3})
+    }
   }
 };
 </script>
