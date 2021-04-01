@@ -23,23 +23,22 @@ export default {
     }
   },
   mounted() {
+    gsap.registerPlugin(ScrollTrigger);
     gsap.set("#" + this.content.id + " .title" ,{autoAlpha: 0, x: -20});
     this.scrollAnimation();
   },
   methods: {
     scrollAnimation() {
-      gsap.registerPlugin(ScrollTrigger);
       this.tl = gsap.timeline({
         scrollTrigger: {
           trigger: "#" + this.content.id + " .title",
           start: "55% 55%",
           end: "+=20",
-          markers: true,
+          markers: false,
           scrub: false,
           pin: false,
         }
       });
-
       this.tl.to("#" + this.content.id + " .title", {x: 0, autoAlpha: 1})
     }
   }
