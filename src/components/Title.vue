@@ -28,7 +28,7 @@ export default {
 .title-container{
   padding-bottom: 32px;
   .title{
-    padding-right: 100px;
+    padding-right: 20px;
     @include title;
   }
   .lightgreen{
