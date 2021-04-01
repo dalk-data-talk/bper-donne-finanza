@@ -47,7 +47,6 @@ export default {
   }
   .img{
     width: 100%;
-    height: 480px;
     background-color: $bper-verde-chiaro;
     margin-bottom: 24px;
   }
