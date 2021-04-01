@@ -73,3 +73,18 @@ export default {
   }
 }
 </style>
+<style lang="scss">
+@import "@/assets/scss/colors.scss";
+@import "@/assets/scss/bper-fonts.scss";
+.numeric-highlight-container {
+  .box{
+    .rows-container{
+      .single-row{
+        .number-small{
+          @include numeric-highlight-number-small;
+        }
+      }
+    }
+  }
+}
+</style>
