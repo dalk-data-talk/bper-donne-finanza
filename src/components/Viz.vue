@@ -5,7 +5,7 @@
         <b-col>
           <div class="title" v-html="content.title"></div>
           <div class="description" v-html="content.description"></div>
-          <div class="img"></div>
+          <img class="img" :src="'./images/'+content.img"/>
           <div class="source" v-html="content.source"></div>
         </b-col>
       </b-row>
@@ -31,7 +31,6 @@ export default {
 .viz-container{
   position: relative;
   width: 100%;
-  height: 100vh;
   background-color: $bper-verde-scuro;
   margin-bottom: 40px;
   .title{
@@ -47,11 +46,11 @@ export default {
   }
   .img{
     width: 100%;
-    background-color: $bper-verde-chiaro;
     margin-bottom: 24px;
   }
   .source{
     @include viz-source;
+    padding-bottom: 20px;
   }
 }
 </style>
