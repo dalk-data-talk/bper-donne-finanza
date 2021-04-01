@@ -1,5 +1,5 @@
 <template>
-  <div class="voce-glossario-container">
+  <div :id="content.id" class="voce-glossario-container">
     <b-container>
       <b-row>
         <b-col class="container">
@@ -18,12 +18,35 @@
 </template>
 
 <script>
+import gsap from 'gsap'
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 export default {
   name: 'VoceGlossario',
   props: ["content"],
+  data: function () {
+    return {
+      tl: null
+    }
+  },
   mounted() {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.set("#" + this.content.id + " .container" ,{autoAlpha: 0, x: -50, skewX: -10});
+    this.scrollAnimation();
   },
   methods: {
+    scrollAnimation() {
+      this.tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#" + this.content.id + " .container",
+          start: "10% 55%",
+          end: "+=0",
+          markers: false,
+          scrub: false,
+          pin: false,
+        }
+      });
+      this.tl.to("#" + this.content.id + " .container", {autoAlpha: 1, x: 0, skewX: 0, ease: "back.out(1.7)", duration: 1})
+    }
   }
 };
 </script>
