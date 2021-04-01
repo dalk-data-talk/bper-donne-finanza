@@ -24,7 +24,7 @@ export default {
   },
   mounted() {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.set("#" + this.content.id + " .title" ,{autoAlpha: 0, x: -20});
+    gsap.set("#" + this.content.id + " .title" ,{autoAlpha: 0, x: -20, skewX: -20});
     this.scrollAnimation();
   },
   methods: {
@@ -39,7 +39,8 @@ export default {
           pin: false,
         }
       });
-      this.tl.to("#" + this.content.id + " .title", {x: 0, autoAlpha: 1})
+      this.tl.to("#" + this.content.id + " .title", {x: 0, autoAlpha: 1, skewX: 8, duration: .75, ease: "back.out(1.7)"})
+      this.tl.to("#" + this.content.id + " .title", {skewX: 0, duration: .3})
     }
   }
 };
