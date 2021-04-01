@@ -32,14 +32,14 @@ export default {
         scrollTrigger: {
           trigger: "#" + this.content.id + " .title",
           start: "55% 55%",
-          end: "+=100",
+          end: "+=150",
           markers: false,
           scrub: true,
           pin: false,
         }
       });
-      this.tl.to("#" + this.content.id + " .title", {x: 0, autoAlpha: 1, skewX: 8, duration: .75, ease: "back.out(1.7)"})
-      this.tl.to("#" + this.content.id + " .title", {skewX: 0, duration: .3})
+      this.tl.to("#" + this.content.id + " .title", {x: 0, autoAlpha: 1, skewX: 8, duration: 2, ease: "back.out(1.7)"})
+      this.tl.to("#" + this.content.id + " .title", {skewX: 0, duration: .5})
     }
   }
 };
