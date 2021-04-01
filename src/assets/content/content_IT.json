@@ -18,6 +18,7 @@
     {
       "type": "Title",
       "content": {
+        "id": "title-1",
         "text": "Alfabetizzazione finanziaria <span class='lightgreen'>in Italia</span>"
       }
     },
@@ -112,6 +113,7 @@
     {
       "type": "Title",
       "content": {
+        "id": "title-2",
         "text": "<span class='lightgreen'>Gender gap</span> nelle conoscenze finanziarie"
       }
     },
@@ -170,6 +172,7 @@
     {
       "type": "Title",
       "content": {
+        "id": "title-3",
         "text": "<span class='lightgreen'>Conseguenze</span> dell’analfabetismo finanziario femminile"
       }
     },
@@ -281,6 +284,7 @@
     {
       "type": "Title",
       "content": {
+        "id": "title-4",
         "text": "L’educazione finanziaria come mezzo per l’<span class='lightgreen'>emancipazione</span>"
       }
     },
