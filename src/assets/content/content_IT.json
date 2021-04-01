@@ -25,6 +25,7 @@
     {
       "type": "Highlight",
       "content": {
+        "id": "highlight-1",
         "text": "Il processo attraverso il quale i consumatori, i risparmiatori e gli investitori migliorano le loro capacità di comprensione dei prodotti finanziari e dei concetti che ne sono alla base e attraverso istruzioni, informazioni, consigli sviluppano attitudini e conoscenze atte a comprendere i rischi e le opportunità di fare scelte informate […]"
       }
     },
@@ -37,6 +38,7 @@
     {
       "type": "NumericHighlight",
       "content": {
+        "id": "numeric-highlight-1",
         "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
         "rows": [
           {
@@ -49,7 +51,7 @@
           },
           {
             "number": "12,7",
-            "descriptor": "media<br/>punteggio"
+            "descriptor": "<p style='transform: translateX(-13px);'>media<br/>punteggio</p>"
           }
         ],
         "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
@@ -94,6 +96,7 @@
     {
       "type": "Highlight",
       "content": {
+        "id": "highlight-2",
         "text": "Perché in Italia le donne appaiono così impreparate in termini di conoscenze finanziarie?"
       }
     },
@@ -138,6 +141,7 @@
     {
       "type": "Highlight",
       "content": {
+        "id": "highlight-3",
         "text": "Perché in Italia le donne appaiono così impreparate in termini di conoscenze finanziarie?"
       }
     },
@@ -212,6 +216,7 @@
     {
       "type": "Highlight",
       "content": {
+        "id": "highlight-4",
         "text": "In questo contesto, diventa quindi fondamentale essere a conoscenza degli strumenti migliori per gestire il proprio patrimonio e garantire la propria autonomia, anche in situazioni complicate."
       }
     },
@@ -254,6 +259,7 @@
     {
       "type": "NumericHighlight",
       "content": {
+        "id": "numeric-highlight-2",
         "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
         "rows": [
           {
@@ -271,6 +277,7 @@
     {
       "type": "Highlight",
       "content": {
+        "id": "highlight-5",
         "text": "Un futuro che punta a una maggiore emancipazione femminile, che può partire proprio dall’educazione finanziaria e dalla consapevolezza dei propri diritti, dei propri ruoli e delle proprie possibilità."
       }
     },
@@ -297,6 +304,7 @@
     {
       "type": "Highlight",
       "content": {
+        "id": "highlight-6",
         "text": "Dove non ci si sente abbastanza preparate, bisogna approfondire e cercare di capire, senza astenersi o delegare ad altri la questione. Donne e finanza non sono un binomio impossibile e le statistiche non sono un destino scritto, ma il motore del cambiamento."
       }
     },
@@ -309,6 +317,7 @@
     {
       "type": "Highlight",
       "content": {
+        "id": "highlight-7",
         "text": "Educarsi alla gestione del proprio patrimonio non significa diventare esperti di finanza, ma semplicemente dei propri bisogni."
       }
     },
@@ -321,6 +330,7 @@
     {
       "type": "VoceGlossario",
       "content": {
+        "id": "voce-glossario-1",
         "title": "Piani di risparmio (pac e pir)",
         "description": "Il piano di risparmio è uno strumento che ti permette di mettere in atto una strategia di risparmio, per raggiungere un determinato capitale, per te o per i tuoi cari. Qualsiasi sia l’obiettivo, anche le piccole risparmiatrici possono investire in questi strumenti; In Italia, puoi scegliere tra diversi tipi, e tra questi ci sono i Pac e i Pir.",
         "links": [
@@ -338,6 +348,7 @@
     {
       "type": "VoceGlossario",
       "content": {
+        "id": "voce-glossario-2",
         "title": "Investimenti sostenibili (esg)",
         "description": "Gli investimenti sostenibili sono investimenti che puntano su imprese con attività economiche che contribuiscono al raggiungimento di determinati obiettivi fondati su aspetti di natura ambientale (“Environmental”), sociale (“Social”) e di buon governo (“Governance”).<br/>Secondo Claudia Segre della Global Thinking Foundation, il 77% delle donne dà già priorità a queste tematiche, rappresentando la chiave del cambiamento e un punto di partenza per centrare gli obiettivi di sviluppo sostenibile dell’Agenda 2030.",
         "links": [
@@ -351,6 +362,7 @@
     {
       "type": "VoceGlossario",
       "content": {
+        "id": "voce-glossario-3",
         "title": "Polizze (home, health, life insurance)",
         "description": "I diversi tipi di polizze disponibili oggi sono un modo per proteggere la tua ricchezza senza rinunciare ad investirla. Che si tratti della nostra salute, della nostra casa o della nostra vita, grazie alle polizze assicurative è possibile ridurre o azzerare le conseguenze degli eventi fuori dal tuo controllo, senza dover contare solo sulla tua liquidità.",
         "links": [
@@ -364,6 +376,7 @@
     {
       "type": "VoceGlossario",
       "content": {
+        "id": "voce-glossario-4",
         "title": "Previdenza complementare (fondi pensione)",
         "description": "La previdenza complementare è una forma di integrazione facoltativa, che si aggiunge alla previdenza obbligatoria (ovvero ai contributi INPS versati da ogni lavoratore per avere diritto alla pensione) e permette di aggiungere una rendita alla pensione futura, per vivere la tua vecchiaia con più serenità. Inoltre, puoi designare tra beneficiari anche i tuoi cari: i tuoi figli o il tuo compagno, ad esempio.",
         "links": [
