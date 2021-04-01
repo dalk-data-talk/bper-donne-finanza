@@ -11,6 +11,7 @@
     {
       "type": "SectionOpening",
       "content": {
+        "id": "section-opening-1",
         "title": "capitolo 1"
       }
     },
@@ -104,6 +105,7 @@
     {
       "type": "SectionOpening",
       "content": {
+        "id": "section-opening-2",
         "title": "capitolo 2"
       }
     },
@@ -161,6 +163,7 @@
     {
       "type": "SectionOpening",
       "content": {
+        "id": "section-opening-3",
         "title": "capitolo 3"
       }
     },
@@ -271,6 +274,7 @@
     {
       "type": "SectionOpening",
       "content": {
+        "id": "section-opening-4",
         "title": "capitolo 4"
       }
     },
