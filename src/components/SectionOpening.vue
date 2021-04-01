@@ -1,12 +1,5 @@
 <template>
-  <div class="section-opening-container">
-    <!-- <b-container class="bv-example-row">
-      <b-row>
-        <b-col>1 of 3</b-col>
-        <b-col>2 of 3</b-col>
-        <b-col>3 of 3</b-col>
-      </b-row>
-    </b-container> -->
+  <div :id="content.id" class="section-opening-container">
     <b-container>
       <b-row>
         <b-col>
@@ -19,12 +12,36 @@
 </template>
 
 <script>
+import gsap from 'gsap'
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 export default {
   name: 'SectionOpening',
   props: ["content"],
+  data: function () {
+    return {
+      tl: null
+    }
+  },
   mounted() {
+    gsap.set("#" + this.content.id + " .title" ,{autoAlpha: 0, x: -20});
+    this.scrollAnimation();
   },
   methods: {
+    scrollAnimation() {
+      gsap.registerPlugin(ScrollTrigger);
+      this.tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#" + this.content.id + " .title",
+          start: "55% 55%",
+          end: "+=20",
+          markers: true,
+          scrub: false,
+          pin: false,
+        }
+      });
+
+      this.tl.to("#" + this.content.id + " .title", {x: 0, autoAlpha: 1})
+    }
   }
 };
 </script>
