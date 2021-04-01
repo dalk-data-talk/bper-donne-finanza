@@ -8,7 +8,7 @@
           <div class="description" v-html="content.description"></div>
           <div class="links">
             <div v-for="(link,l) in content.links" :key="l">
-              <a :href="link.link" v-text="link.label"></a>
+              <a :href="link.link" target="_blank" v-text="link.label"></a>
             </div>
           </div>
         </b-col>
