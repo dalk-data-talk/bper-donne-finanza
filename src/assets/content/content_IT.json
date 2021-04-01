@@ -309,6 +309,62 @@
       "content": {
         "text": "Le donne sono perfettamente in grado di generare denaro, scegliere dove investirlo e usarlo per se stesse e i propri obiettivi; l’importante è imparare come, partendo da piccole somme e ambiti vicini a noi.<br/><br/>Perchè si tratta di investimenti, ma anche di risparmiare, proteggere i propri cari e garantirsi una vecchiaia serena. E in questo senso, ci sono alcuni strumenti semplici e a disposizione di tutte che possono aiutarci nella gestione dei nostri soldi, in più campi e in più modi.<br/>Ecco alcuni esempi:"
       }
+    },
+    {
+      "type": "VoceGlossario",
+      "content": {
+        "title": "Piani di risparmio (pac e pir)",
+        "description": "Il piano di risparmio è uno strumento che ti permette di mettere in atto una strategia di risparmio, per raggiungere un determinato capitale, per te o per i tuoi cari. Qualsiasi sia l’obiettivo, anche le piccole risparmiatrici possono investire in questi strumenti; In Italia, puoi scegliere tra diversi tipi, e tra questi ci sono i Pac e i Pir.",
+        "links": [
+          {
+            "label": "+ PAC",
+            "link": ""
+          },
+          {
+            "label": "+ PIR",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "VoceGlossario",
+      "content": {
+        "title": "Investimenti sostenibili (esg)",
+        "description": "Gli investimenti sostenibili sono investimenti che puntano su imprese con attività economiche che contribuiscono al raggiungimento di determinati obiettivi fondati su aspetti di natura ambientale (“Environmental”), sociale (“Social”) e di buon governo (“Governance”).<br/>Secondo Claudia Segre della Global Thinking Foundation, il 77% delle donne dà già priorità a queste tematiche, rappresentando la chiave del cambiamento e un punto di partenza per centrare gli obiettivi di sviluppo sostenibile dell’Agenda 2030.",
+        "links": [
+          {
+            "label": "+ Quali sono le differenze tra un fondo con universo di investimento tradizionale e uno ESG?",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "VoceGlossario",
+      "content": {
+        "title": "Polizze (home, health, life insurance)",
+        "description": "I diversi tipi di polizze disponibili oggi sono un modo per proteggere la tua ricchezza senza rinunciare ad investirla. Che si tratti della nostra salute, della nostra casa o della nostra vita, grazie alle polizze assicurative è possibile ridurre o azzerare le conseguenze degli eventi fuori dal tuo controllo, senza dover contare solo sulla tua liquidità.",
+        "links": [
+          {
+            "label": "+ Come (e perché) proteggere la propria ricchezza",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "VoceGlossario",
+      "content": {
+        "title": "Previdenza complementare (fondi pensione)",
+        "description": "La previdenza complementare è una forma di integrazione facoltativa, che si aggiunge alla previdenza obbligatoria (ovvero ai contributi INPS versati da ogni lavoratore per avere diritto alla pensione) e permette di aggiungere una rendita alla pensione futura, per vivere la tua vecchiaia con più serenità. Inoltre, puoi designare tra beneficiari anche i tuoi cari: i tuoi figli o il tuo compagno, ad esempio.",
+        "links": [
+          {
+            "label": "+ La previdenza complementare: perché aderire a un fondo pensione (integrativo)",
+            "link": ""
+          }
+        ]
+      }
     }
   ]
 }

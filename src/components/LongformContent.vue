@@ -21,6 +21,7 @@ import HorizontalSlider from '../components/HorizontalSlider.vue'
 import Notes from '../components/Notes.vue'
 import Viz from '../components/Viz.vue'
 import ImgStatic from '../components/ImgStatic.vue'
+import VoceGlossario from '../components/VoceGlossario.vue'
 export default {
   mounted: function() {
   },
@@ -37,7 +38,8 @@ export default {
     HorizontalSlider,
     Notes,
     Viz,
-    ImgStatic
+    ImgStatic,
+    VoceGlossario
   }
 };
 </script>
