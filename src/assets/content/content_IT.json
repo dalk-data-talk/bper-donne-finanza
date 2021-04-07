@@ -2,11 +2,7 @@
   "title": "Donne e finanza",
   "sections": [
     {
-      "type": "Intro",
-      "content": {
-        "title": "Educazione<br/>finanziaria",
-        "subtitle": "Perchè l'educazione finanziaria può (e deve) essere un gioco da ragazze"
-      }
+      "type": "Menu"
     },
     {
       "type": "SectionOpening",
