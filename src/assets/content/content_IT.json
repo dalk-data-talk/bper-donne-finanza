@@ -2,11 +2,7 @@
   "title": "Donne e finanza",
   "sections": [
     {
-      "type": "Intro",
-      "content": {
-        "title": "Educazione<br/>finanziaria",
-        "subtitle": "Perchè l'educazione finanziaria può (e deve) essere un gioco da ragazze"
-      }
+      "type": "Menu"
     },
     {
       "type": "SectionOpening",
@@ -66,9 +62,10 @@
     {
       "type": "Viz",
       "content": {
+        "id": "viz-1",
         "title": "punteggi di alfabetizzazione finanziaria",
         "description": "La posizione dell’Italia rispetto gli altri paesi europei",
-        "img": "",
+        "img": "viz-1.svg",
         "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
       }
     },
