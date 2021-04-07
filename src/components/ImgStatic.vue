@@ -1,6 +1,12 @@
 <template>
   <div class="img-static-container">
-    img static
+    <b-container>
+      <b-row>
+        <b-col class="image-container">
+          <img :src="'./images/'+content.img">
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -19,4 +25,15 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/scss/bper-fonts.scss";
 @import "@/assets/scss/colors.scss";
+.img-static-container{
+  margin-bottom: 40px;
+  .image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+      width: 100%;
+    }
+  }
+}
 </style>
