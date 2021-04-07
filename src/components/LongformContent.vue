@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import Menu from '../components/Menu.vue'
 import Intro from '../components/Intro.vue'
 import SectionOpening from '../components/SectionOpening.vue'
 import Title from '../components/Title.vue'
@@ -29,7 +28,6 @@ export default {
   methods: {
   },
   components: {
-    Menu,
     Intro,
     SectionOpening,
     Title,
