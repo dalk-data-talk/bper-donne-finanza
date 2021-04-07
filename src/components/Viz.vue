@@ -7,7 +7,9 @@
           <b-col>
             <div class="title" v-html="content.title"></div>
             <div class="description" v-html="content.description"></div>
-            <img class="img" :src="'./images/'+content.img"/>
+            <div class="container-img">
+              <img v-for="(img,i) in content.mobile" :key="i" class="img" :src="'./images/'+img"/>
+            </div>
             <div class="source" v-html="content.source"></div>
           </b-col>
         </b-row>
@@ -60,9 +62,14 @@ export default {
     @include footer-text-element;
     padding-bottom: 24px;
   }
-  .img{
-    width: 100%;
-    margin-bottom: 24px;
+  .container-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .img{
+      max-width: 300px;
+      margin-bottom: 24px;
+    }
   }
   .source{
     @include viz-source;

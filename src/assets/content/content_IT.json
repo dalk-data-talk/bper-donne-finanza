@@ -65,7 +65,7 @@
         "id": "viz-1",
         "title": "punteggi di alfabetizzazione finanziaria",
         "description": "La posizione dell’Italia rispetto gli altri paesi europei",
-        "img": "viz-1.svg",
+        "mobile": ["viz-1.png"],
         "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
       }
     },
@@ -80,7 +80,7 @@
       "content": {
         "title": "Alfabetizzazione in Italia per genere",
         "description": "Punteggi medi di alfabetizzazione finanziaria e delle sue componenti (2017-2020)",
-        "img": "",
+        "mobile": ["viz-2.png"],
         "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020"
       }
     },
@@ -153,7 +153,7 @@
       "content": {
         "title": "Sottostima delle proprie conoscenze finanziarie*",
         "description": "*Soggetti che valutano le proprie competenze sotto la media, ma ottengono punteggi sopra la media",
-        "img": "",
+        "mobile": ["viz-3.png"],
         "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020"
       }
     },
@@ -200,7 +200,7 @@
       "content": {
         "title": "Indipendenza economica",
         "description": "Lei è personalmente indipendente da un punto di vista economico?",
-        "img": "",
+        "mobile": ["viz-5.png"],
         "source": "Fonte: La gestione del risparmio, Museo Nazionale del Risparmio"
       }
     },
@@ -228,7 +228,7 @@
       "content": {
         "title": "imprenditoria femminile",
         "description": "Settori",
-        "img": "",
+        "mobile": ["viz-6.png"],
         "source": "Fonte: Unioncamere.gov"
       }
     },
@@ -243,7 +243,7 @@
       "content": {
         "title": "indipendenza economica",
         "description": "Chi decide?",
-        "img": "",
+        "mobile": ["viz-7a.png", "viz-7b.png", "viz-7c.png"],
         "source": "Fonte: La gestione del risparmio, Museo Nazionale del Risparmio"
       }
     },
