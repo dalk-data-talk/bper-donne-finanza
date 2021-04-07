@@ -1,6 +1,11 @@
 <template>
   <div class="menu-modal">
-    <div class="main"></div>
+    <div class="main">
+      <div @click="goToChapter('#section-opening-1')">Capitolo 1</div>
+      <div @click="goToChapter('#section-opening-2')">Capitolo 2</div>
+      <div @click="goToChapter('#section-opening-3')">Capitolo 3</div>
+      <div @click="goToChapter('#section-opening-4')">Capitolo 4</div>
+    </div>
   </div>
 </template>
 
@@ -8,9 +13,16 @@
 export default {
   name: 'MenuModal',
   props: ["content"],
+  data: function () {
+    return {
+    }
+  },
   mounted() {
   },
   methods: {
+    goToChapter(chapter){
+      this.$emit('scrollChapter', chapter)
+    }
   }
 };
 </script>
