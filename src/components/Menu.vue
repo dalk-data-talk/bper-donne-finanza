@@ -3,11 +3,16 @@
     <!-- menu mobile -->
     <div v-if="$mq != 'desktop'" :class="['menu', {'menu-shown' : menuModalOpen}]">
       <transition name="fade">
-        <MenuModal v-show="menuModalOpen" v-scroll-lock="menuModalOpen"/>
+        <MenuModal v-show="menuModalOpen" v-scroll-lock="menuModalOpen" v-on:scrollChapter="onScrollChapter"/>
       </transition>
     </div>
     <div v-else>
-      desktop
+      <div class="menu-desktop">
+        <div @click="goToChapter('#section-opening-1')">Capitolo 1</div>
+        <div @click="goToChapter('#section-opening-2')">Capitolo 2</div>
+        <div @click="goToChapter('#section-opening-3')">Capitolo 3</div>
+        <div @click="goToChapter('#section-opening-4')">Capitolo 4</div>
+      </div>
     </div>
   </div>
 </template>
@@ -19,12 +24,38 @@ export default {
   props: ["content"],
   data: function () {
     return {
-      menuModalOpen: true
+      menuModalOpen: false,
+      cancelScroll: null,
+      options: {
+        container: 'body',
+        easing: 'ease-in-out',
+        offset: -60,
+        force: true,
+        cancelable: true,
+        onStart: function() {
+          // scrolling started
+        },
+        onDone: function() {
+          // scrolling is done
+        },
+        onCancel: function() {
+          // scrolling has been interrupted
+        },
+        x: false,
+        y: true
+      }
     }
   },
   mounted() {
   },
   methods: {
+    onScrollChapter(chapter){
+      this.goToChapter(chapter)
+    },
+    goToChapter(chapter){
+      this.cancelScroll = this.$scrollTo(chapter, 2000, this.options)
+      this.menuModalOpen = false
+    }
   },
   components: {
     MenuModal
@@ -51,7 +82,14 @@ export default {
   z-index: 9999;
 }
 
-// fade animation
+.menu-desktop{
+  position: fixed;
+  width: 600px;
+  height: 55px;
+  background-color: $bper-verde-chiaro;
+}
+
+// --- fade animation
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }
