@@ -2,7 +2,7 @@
   <div class="img-static-container">
     <b-container>
       <b-row>
-        <b-col class="image-container">
+        <b-col :sm="content.col_size_sm" :lg="content.col_size_lg" class="image-container">
           <img :src="'./images/'+content.img">
         </b-col>
       </b-row>
@@ -27,12 +27,16 @@ export default {
 @import "@/assets/scss/colors.scss";
 .img-static-container{
   margin-bottom: 40px;
-  .image-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    img{
-      width: 100%;
+  .container{
+    .row{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .image-container{
+        img{
+          width: 100%;
+        }
+      }
     }
   }
 }

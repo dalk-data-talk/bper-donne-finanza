@@ -129,7 +129,9 @@
     {
       "type": "ImgStatic",
       "content": {
-        "img": "struttura_definizione.png"
+        "img": "struttura_definizione.png",
+        "col_size_sm": 12,
+        "col_size_lg": 4
       }
     },
     {
@@ -189,7 +191,9 @@
     {
       "type": "ImgStatic",
       "content": {
-        "img": "circolo_vizioso.png"
+        "img": "circolo_vizioso.png",
+        "col_size_sm": 12,
+        "col_size_lg": 6
       }
     },
     {
