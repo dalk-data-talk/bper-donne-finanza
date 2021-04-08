@@ -41,6 +41,15 @@
   line-height: 1;
 }
 
+@mixin title-lightgreen--desktop {
+  font-family: KievitOT;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 1;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
 @mixin intro-title--desktop {
   font-family: KievitOT;
   font-size: 80px;
