@@ -17,16 +17,28 @@
     </div>
     <!-- desktop -->
     <div v-else class="viz-container-desktop">
-      <b-container>
-        <b-row>
-          <b-col>
+      <div v-if="content.type_desktop == 1" class="type-1">
+        <b-container>
+          <b-row>
+            <b-col :cols="content.desktop_cols">
+              <img v-for="(img,i) in content.desktop" :key="i" class="img" :src="'./images/'+img"/>
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+      <div v-else class="type-2">
+        <b-container>
+          <b-row class="row-info">
             <div class="title" v-html="content.title"></div>
             <div class="description" v-html="content.description"></div>
-            <img class="img" :src="'./images/'+content.img"/>
-            <div class="source" v-html="content.source"></div>
-          </b-col>
-        </b-row>
-      </b-container>
+          </b-row>
+          <b-row>
+            <b-col cols="10">
+              <img class="img" :src="'./images/'+content.desktop"/>
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
     </div>
   </div>
 </template>
@@ -48,7 +60,6 @@ export default {
 @import "@/assets/scss/colors.scss";
 .viz-container{
   position: relative;
-  width: 100%;
   background-color: $bper-verde-scuro;
   margin-bottom: 40px;
   .title{
@@ -77,28 +88,42 @@ export default {
   }
 }
 .viz-container-desktop{
-  position: relative;
-  width: 100%;
-  background-color: $bper-verde-scuro;
-  margin-bottom: 40px;
-  .title{
-    text-transform: uppercase;
-    padding-top: 40px;
-    padding-bottom: 12px;
-    @include viz-title;
+  padding-bottom: 64px;
+  .type-1{
+    .container{
+      .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img{
+          width: 100%;
+        }
+      }
+    }
   }
-  .description{
-    padding-right: 100px;
-    @include footer-text-element;
-    padding-bottom: 24px;
-  }
-  .img{
+  .type-2{
+    position: relative;
     width: 100%;
-    margin-bottom: 24px;
-  }
-  .source{
-    @include viz-source;
-    padding-bottom: 20px;
+    background-color: $bper-verde-scuro;
+    .container{
+      .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img{
+          width: 100%;
+        }
+      }
+      .row-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+        .title{
+          @include viz-full-title;
+        }
+      }
+    }
   }
 }
 </style>

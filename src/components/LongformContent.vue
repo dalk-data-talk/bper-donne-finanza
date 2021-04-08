@@ -50,5 +50,6 @@ export default {
 @import "@/assets/scss/fonts.scss";
 .longform-content{
   background-color: $bper-bianco;
+  overflow-x: hidden!important;
 }
 </style>

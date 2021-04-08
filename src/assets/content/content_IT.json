@@ -69,7 +69,10 @@
         "title": "punteggi di alfabetizzazione finanziaria",
         "description": "La posizione dell’Italia rispetto gli altri paesi europei",
         "mobile": ["viz-1.png"],
-        "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
+        "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy",
+        "type_desktop": 1,
+        "desktop": ["viz-1-desktop.png"],
+        "desktop_cols": 10
       }
     },
     {
@@ -84,7 +87,10 @@
         "title": "Alfabetizzazione in Italia per genere",
         "description": "Punteggi medi di alfabetizzazione finanziaria e delle sue componenti (2017-2020)",
         "mobile": ["viz-2.png"],
-        "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020"
+        "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020",
+        "type_desktop": 1,
+        "desktop": ["viz-2a-desktop.png", "viz-2b-desktop.png"],
+        "desktop_cols": 6
       }
     },
     {
@@ -160,7 +166,10 @@
         "title": "Sottostima delle proprie conoscenze finanziarie*",
         "description": "*Soggetti che valutano le proprie competenze sotto la media, ma ottengono punteggi sopra la media",
         "mobile": ["viz-3.png"],
-        "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020"
+        "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020",
+        "type_desktop": 1,
+        "desktop": ["viz-3-desktop.png"],
+        "desktop_cols": 10
       }
     },
     {
@@ -210,7 +219,10 @@
         "title": "Indipendenza economica",
         "description": "Lei è personalmente indipendente da un punto di vista economico?",
         "mobile": ["viz-5.png"],
-        "source": "Fonte: La gestione del risparmio, Museo Nazionale del Risparmio"
+        "source": "Fonte: La gestione del risparmio, Museo Nazionale del Risparmio",
+        "type_desktop": 1,
+        "desktop": ["viz-4-desktop.png"],
+        "desktop_cols": 10
       }
     },
     {
@@ -235,10 +247,12 @@
     {
       "type": "Viz",
       "content": {
-        "title": "imprenditoria femminile",
+        "title": "Imprenditoria femminile",
         "description": "Settori",
         "mobile": ["viz-6.png"],
-        "source": "Fonte: Unioncamere.gov"
+        "source": "Fonte: Unioncamere.gov",
+        "type_desktop": 2,
+        "desktop": "viz-5-desktop.png"
       }
     },
     {
@@ -250,10 +264,12 @@
     {
       "type": "Viz",
       "content": {
-        "title": "indipendenza economica",
+        "title": "Indipendenza economica",
         "description": "Chi decide?",
         "mobile": ["viz-7a.png", "viz-7b.png", "viz-7c.png"],
-        "source": "Fonte: La gestione del risparmio, Museo Nazionale del Risparmio"
+        "source": "Fonte: La gestione del risparmio, Museo Nazionale del Risparmio",
+        "type_desktop": 2,
+        "desktop": "viz-6-desktop.png"
       }
     },
     {
