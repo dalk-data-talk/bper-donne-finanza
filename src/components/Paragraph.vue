@@ -2,7 +2,7 @@
   <div class="paragraph-container">
     <b-container>
       <b-row v-if="!content.note">
-        <b-col class="text-container">
+        <b-col xl="8" class="text-container">
           <div class="text" v-html="content.text"></div>
         </b-col>
       </b-row>
@@ -42,8 +42,30 @@ export default {
 @import "@/assets/scss/colors.scss";
 .paragraph-container{
   padding-bottom: 40px;
-  .text{
-    @include paragraph;
+  .row{
+    display: flex;
+    justify-content: center;
+    .text{
+      @include paragraph;
+    }
   }
+}
+// -- media query tablet
+@media only screen 
+  and (min-device-width: 450px) 
+  and (max-device-width: 1250px) {
+
+}
+// -- media query desktop
+@media only screen 
+  and (min-device-width: 1250px)
+  and (orientation: landscape)  {
+    .paragraph-container{
+      .row{
+        .text{
+          @include paragraph--desktop;
+        }
+      }
+    }
 }
 </style>
