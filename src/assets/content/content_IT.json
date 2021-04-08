@@ -28,7 +28,31 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Secondo l’OCSE, è questa la definizione di educazione finanziaria: un tema sempre più centrale nel mondo di oggi, dove i mercati e il sistema economico diventano via via più complessi.<br/>Un insieme di conoscenze, un mezzo, ma anche un’opportunità e un punto di partenza per migliorare la propria condizione finanziaria e non solo – specialmente quando si parla di donne.<br/>La situazione su questo fronte, però, non è ancora troppo rosea; in particolare, nel nostro paese.<br/>Stando a un’indagine dell’OCSE sul tema - dal titolo OECD/INFE 2020 International Survey of Adult Financial Literacy - che ha coinvolto gli adulti di 26 paesi, nessuna nazione considerata brilla in quanto ad alfabetizzazione finanziaria. Nonostante un punteggio massimo di 21, i singoli individui dell'intero campione hanno infatti ottenuto in media un punteggio di 12,7; un numero che rappresenta conoscenze basilari e comportamenti finanziari tendenzialmente prudenti."
+        "text": "Secondo l’OCSE, è questa la definizione di educazione finanziaria: un tema sempre più centrale nel mondo di oggi, dove i mercati e il sistema economico diventano via via più complessi.<br/>Un insieme di conoscenze, un mezzo, ma anche un’opportunità e un punto di partenza per migliorare la propria condizione finanziaria e non solo – specialmente quando si parla di donne."
+      }
+    },
+    {
+      "type": "Paragraph",
+      "content": {
+        "text": "La situazione su questo fronte, però, non è ancora troppo rosea; in particolare, nel nostro paese.<br/>Stando a un’indagine dell’OCSE sul tema - dal titolo OECD/INFE 2020 International Survey of Adult Financial Literacy - che ha coinvolto gli adulti di 26 paesi, nessuna nazione considerata brilla in quanto ad alfabetizzazione finanziaria. Nonostante un punteggio massimo di 21, i singoli individui dell'intero campione hanno infatti ottenuto in media un punteggio di 12,7; un numero che rappresenta conoscenze basilari e comportamenti finanziari tendenzialmente prudenti.",
+        "note": {
+          "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
+          "rows": [
+            {
+              "number": "26",
+              "description": "paesi intervistati"
+            },
+            {
+              "number": "21",
+              "description": "punteggio massimo"
+            },
+            {
+              "number": "12,7",
+              "description": "media punteggio"
+            }
+          ],
+          "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
+        }
       }
     },
     {
@@ -250,7 +274,21 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Dalle statistiche globali arrivano però buone notizie, le donne stanno guadagnando punti: risparmiano di più, si indebitano meno, i loro depositi crescono del 14% rispetto al 9% degli uomini, e rappresentano una fetta di mercato molto interessante (36%). Le percentuali appartengono al rapporto The economics of banking on women – basato sui dati dell’associazione no profit Gba - Global banking alliance for women – e riguardano 25 banche di 23 Paesi, prendendo in considerazione oltre 32 milioni di clienti donne che aiutano a definire una fotografia migliore per il futuro."
+        "text": "Dalle statistiche globali arrivano però buone notizie, le donne stanno guadagnando punti: risparmiano di più, si indebitano meno, i loro depositi crescono del 14% rispetto al 9% degli uomini, e rappresentano una fetta di mercato molto interessante (36%). Le percentuali appartengono al rapporto The economics of banking on women – basato sui dati dell’associazione no profit Gba - Global banking alliance for women – e riguardano 25 banche di 23 Paesi, prendendo in considerazione oltre 32 milioni di clienti donne che aiutano a definire una fotografia migliore per il futuro.",
+        "note": {
+          "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
+          "rows": [
+            {
+              "number": "+14%",
+              "description": "crescita depositi donne"
+            },
+            {
+              "number": "+9%",
+              "description": "crescita depositi uomini"
+            }
+          ],
+          "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
+        }
       }
     },
     {
