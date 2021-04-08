@@ -355,8 +355,9 @@
 
 @mixin numeric-highlight-source {
   font-family: KievitOT;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
+  line-height: 16px;
   text-align: left;
   color: $bper-verde-scuro;
 }
