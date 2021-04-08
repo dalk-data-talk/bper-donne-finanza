@@ -17,8 +17,10 @@
     </div>
     <!-- desktop -->
     <div v-else class="viz-container-desktop">
+      <!-- viz type 1 -->
       <div v-if="content.type_desktop == 1" class="type-1">
         <b-container>
+          <NoteViz :content="content"/>
           <b-row>
             <b-col :cols="content.desktop_cols">
               <img v-for="(img,i) in content.desktop" :key="i" class="img" :src="'./images/'+img"/>
@@ -26,6 +28,7 @@
           </b-row>
         </b-container>
       </div>
+      <!-- viz type 2 -->
       <div v-else class="type-2">
         <b-container>
           <b-row class="row-info">
@@ -37,16 +40,22 @@
               <img class="img" :src="'./images/'+content.desktop"/>
             </b-col>
           </b-row>
+          <b-row class="row-info">
+            <div class="source" v-html="content.source"></div>
+          </b-row>
         </b-container>
       </div>
     </div>
   </div>
 </template>
-
 <script>
+import NoteViz from '../components/NoteViz.vue'
 export default {
   name: 'Viz',
   props: ["content"],
+  components: {
+    NoteViz
+  },
   mounted() {
   },
   methods: {
@@ -97,6 +106,7 @@ export default {
         align-items: center;
         .img{
           width: 100%;
+          margin-top: 160px;
         }
       }
     }
@@ -121,6 +131,18 @@ export default {
         padding-top: 40px;
         .title{
           @include viz-full-title;
+        }
+        .description{
+          @include viz-note-description--desktop;
+          color: $bper-bianco;
+          padding-top: 14px;
+          padding-bottom: 14px;
+        }
+        .source{
+          @include numeric-highlight-source;
+          padding-top: 14px;
+          padding-bottom: 18px;
+          color: $bper-bianco;
         }
       }
     }
