@@ -10,16 +10,6 @@
         <b-col sm="12" lg="4" class="note-container">
           <NumericHighlight :content="content.note"/>
         </b-col>
-        <!-- <b-col sm="12" lg="3" class="note-container">
-          <div class="note">
-            <div class="title">{{content.note.title}}</div>
-            <div class="row-data" v-for="(row,r) in content.note.rows" :key="r">
-              <div class="row-number">{{row.number}}</div>
-              <div class="row-description">{{row.description}}</div>
-            </div>
-            <div class="source">{{content.note.source}}</div>
-          </div>
-        </b-col> -->
         <b-col lg="6" class="text-container">
           <div class="text" v-html="content.text"></div>
         </b-col>
