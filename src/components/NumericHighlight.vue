@@ -61,8 +61,9 @@ export default {
   padding-bottom: 40px;
   .box{
     width: 100%;
-    border-radius: 2px;
-    box-shadow: 6px 6px 23px 3px rgba(70, 70, 70, 0.1);
+    border-radius: 5px;
+    box-shadow: $bper-dropdown-shadow;
+    padding: 0px 18px;
     background-color: $bper-bianco;
     .title{
       @include numeric-highlight-title;
@@ -73,15 +74,20 @@ export default {
       text-align: center;
     }
     .rows-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       .single-row{
+        width: 80%;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding-bottom: 24px;
+        padding-bottom: 12px;
         .number{
-          @include numeric-highlight-number;
-          padding-right: 24px;
+          position: absolute;
           text-align: right;
+          @include numeric-highlight-number;
+          transform: translateX(-80px);
         }
         .descriptor{
           @include numeric-highlight-descriptor;
@@ -91,7 +97,7 @@ export default {
     .source{
       display: flex;
       justify-content: center;
-      padding-bottom: 24px;
+      padding-bottom: 14px;
       @include numeric-highlight-source;
     }
   }
