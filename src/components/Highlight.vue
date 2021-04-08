@@ -3,6 +3,7 @@
     <b-container>
       <b-row>
         <b-col>
+          <div class="line"/>
           <div data-splitting="words" class="text">{{content.text}}</div>
         </b-col>
       </b-row>
@@ -54,8 +55,29 @@ export default {
 @import "@/assets/scss/colors.scss";
 .highlight-container{
   padding-bottom: 32px;
+  .line{
+    display: none;
+  }
   .text{
     @include highlight;
   }
+}
+// -- media query desktop
+@media only screen 
+  and (min-device-width: 1250px)
+  and (orientation: landscape)  {
+    .highlight-container{
+      .line{
+        display: block;
+        width: 170px;
+        height: 1px;
+        background-color: $bper-verde-scuro;
+        margin-bottom: 24px;
+      }
+      .text{
+        @include highlight--desktop;
+        padding-right: 200px;
+      }
+    }
 }
 </style>
