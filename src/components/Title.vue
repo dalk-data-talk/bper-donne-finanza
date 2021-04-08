@@ -59,6 +59,27 @@ export default {
     @include title-lightgreen;
   }
 }
+
+// -- media query tablet
+@media only screen 
+  and (min-device-width: 450px) 
+  and (max-device-width: 1250px) {
+
+}
+// -- media query desktop
+@media only screen 
+  and (min-device-width: 1250px)
+  and (orientation: landscape)  {
+    .title-container{
+      .title{
+        @include title--desktop;
+        padding-right: 300px;
+      }
+      .lightgreen{
+        @include title-lightgreen--desktop;
+      }
+    }
+}
 </style>
 <style lang="scss">
 @import "@/assets/scss/bper-fonts.scss";
@@ -67,5 +88,15 @@ export default {
   .lightgreen{
     @include title-lightgreen;
   }
+}
+// -- media query desktop
+@media only screen 
+  and (min-device-width: 1250px)
+  and (orientation: landscape)  {
+    .title-container{
+      .lightgreen{
+        @include title-lightgreen--desktop;
+      }
+    }
 }
 </style>
