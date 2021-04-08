@@ -63,7 +63,7 @@
   font-weight: 300;
   line-height: 0.45;
   text-align: right;
-  color: $bper-verde-scuro;
+  color: $bper-arancione;
 }
 
 @mixin intro-title {
@@ -102,11 +102,43 @@
   color: $bper-verde-chiaro;
 }
 
+@mixin paragraph-bold {
+  font-family: KievitOT;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.57;
+  text-align: left;
+  color: $bper-verde-chiaro;
+}
+
 @mixin paragraph-bold--desktop {
   font-family: KievitOT;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.58;
+}
+
+@mixin paragraph-link {
+  font-family: KievitOT;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.57;
+  text-align: left;
+  text-decoration: none;
+  border-bottom: .75px solid $bper-arancione;
+  color: $bper-arancione;
+}
+
+@mixin paragraph-link--desktop {
+  font-family: KievitOT;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.58;
+  text-align: left;
+  text-decoration: none;
+  border-bottom: .75px solid $bper-arancione;
+  cursor: pointer;
+  color: $bper-arancione;
 }
 
 @mixin intro-caption--desktop {
@@ -131,6 +163,15 @@
   font-size: 24px;
   font-weight: 300;
   line-height: 1.58;
+}
+
+@mixin paragraph-italic {
+  font-family: KievitOT;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.57;
+  text-align: left;
+  color: $bper-verde-scuro;
 }
 
 @mixin paragraph-italic--desktop {
@@ -245,7 +286,7 @@
   color: $bper-bianco;
 }
 
-@mixin numeric-highlight-didascalia {
+@mixin numeric-highlight-description {
   font-family: KievitOT;
   font-size: 16px;
   font-weight: 300;

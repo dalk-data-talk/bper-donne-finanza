@@ -28,27 +28,28 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Secondo l’OCSE, è questa la definizione di educazione finanziaria: un tema sempre più centrale nel mondo di oggi, dove i mercati e il sistema economico diventano via via più complessi.<br/>Un insieme di conoscenze, un mezzo, ma anche un’opportunità e un punto di partenza per migliorare la propria condizione finanziaria e non solo – specialmente quando si parla di donne."
+        "text": "Secondo l’OCSE, è questa la definizione di educazione finanziaria: un tema sempre più centrale nel mondo di oggi, dove i mercati e il sistema economico diventano via via più complessi.<br/>Un insieme di conoscenze, un mezzo, ma anche <span class='bold'>un’opportunità</span> e un punto di partenza per migliorare la propria condizione finanziaria e non solo – specialmente quando si parla di donne."
       }
     },
     {
       "type": "Paragraph",
       "content": {
-        "text": "La situazione su questo fronte, però, non è ancora troppo rosea; in particolare, nel nostro paese.<br/>Stando a un’indagine dell’OCSE sul tema - dal titolo OECD/INFE 2020 International Survey of Adult Financial Literacy - che ha coinvolto gli adulti di 26 paesi, nessuna nazione considerata brilla in quanto ad alfabetizzazione finanziaria. Nonostante un punteggio massimo di 21, i singoli individui dell'intero campione hanno infatti ottenuto in media un punteggio di 12,7; un numero che rappresenta conoscenze basilari e comportamenti finanziari tendenzialmente prudenti.",
+        "text": "La situazione su questo fronte, però, non è ancora troppo rosea; in particolare, nel nostro paese.<br/><a class='link' target='_blank' href='https://www.oecd.org/financial/education/oecd-infe-2020-international-survey-of-adult-financial-literacy.pdf'>Stando a un’indagine dell’OCSE sul tema - dal titolo OECD/INFE 2020 International Survey of Adult Financial Literacy</a> - che ha coinvolto gli adulti di 26 paesi, nessuna nazione considerata brilla in quanto ad alfabetizzazione finanziaria. Nonostante un punteggio massimo di 21, i singoli individui dell'intero campione hanno infatti ottenuto in media un punteggio di 12,7; un numero che rappresenta conoscenze basilari e comportamenti finanziari tendenzialmente prudenti.",
         "note": {
+          "id": "numeric-highlight-1",
           "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
           "rows": [
             {
               "number": "26",
-              "description": "paesi intervistati"
+              "descriptor": "paesi<br/>intervistati"
             },
             {
               "number": "21",
-              "description": "punteggio massimo"
+              "descriptor": "punteggio<br/>massimo"
             },
             {
               "number": "12,7",
-              "description": "media punteggio"
+              "descriptor": "<p style='transform: translateX(-13px);'>media<br/>punteggio</p>"
             }
           ],
           "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
@@ -56,31 +57,9 @@
       }
     },
     {
-      "type": "NumericHighlight",
-      "content": {
-        "id": "numeric-highlight-1",
-        "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
-        "rows": [
-          {
-            "number": "26",
-            "descriptor": "paesi<br/>intervistati"
-          },
-          {
-            "number": "21",
-            "descriptor": "punteggio<br/>massimo"
-          },
-          {
-            "number": "12,7",
-            "descriptor": "<p style='transform: translateX(-13px);'>media<br/>punteggio</p>"
-          }
-        ],
-        "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
-      }
-    },
-    {
       "type": "Paragraph",
       "content": {
-        "text": "Ma se il problema è comune, l’Italia ha il “primato” per quanto riguarda il punteggio minimo, fermo a 11,1. Un punteggio che si abbassa ulteriormente quando si considera solo la popolazione femminile, ferma a un punteggio di 10.9."
+        "text": "Ma se il problema è comune, <span class='bold'>l’Italia ha il “primato” per quanto riguarda il punteggio minimo</span>, fermo a 11,1. Un punteggio che si abbassa ulteriormente quando si considera solo la popolazione femminile, ferma a un punteggio di 10.9."
       }
     },
     {
@@ -96,7 +75,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Utilizzando il medesimo approccio, anche la nostrana Banca d’Italia si è occupata di fotografare le conoscenze economiche del paese, riscontrando gli stessi deficit e soprattutto lo stesso gap di genere nella sua indagine 2020 sull’educazione finanziaria."
+        "text": "Utilizzando il medesimo approccio, anche la nostrana Banca d’Italia si è occupata di fotografare le <span class='bold'>conoscenze economiche del paese</span>, riscontrando gli stessi deficit e soprattutto lo <span class='bold'>stesso gap di genere</span> nella sua <a class='link' target='_blank' href='https://www.bancaditalia.it/pubblicazioni/qef/2020-0588/QEF_588_20.pdf'>indagine 2020 sull’educazione finanziaria.</a>"
       }
     },
     {
@@ -111,7 +90,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Secondo gli autori della ricerca, sono soprattutto casalinghe e pensionate a contribuire all’ampliamento della distanza, ma prendendo in considerazione le fasce più giovani la panoramica non cambia molto.<br/><br/>Nei risultati dell’ultima tornata di test Pisa – l'indagine internazionale triennale promossa sempre dall’OCSE per accertare le competenze dei quindicenni scolarizzati – relativi al 2018, l’Italia emerge come l’unico paese dove gli studenti maschi ottengono in media punteggi più alti nell’alfabetizzazione finanziaria rispetto alle studentesse: 15 sono i punti di distacco, mentre negli altri paesi il gender gap è in media di soli due punti.<br/><br/>La domanda sorge spontanea."
+        "text": "Secondo gli autori della ricerca, sono soprattutto casalinghe e pensionate a contribuire all’<span class='bold'>ampliamento della distanza</span>, ma prendendo in considerazione le fasce più giovani la panoramica non cambia molto.<br/><br/>Nei risultati dell’ultima tornata di test <a href='http://www.oecd.org/daf/pisa-2018-results-volume-iv-48ebd1ba-en.htm' target='_blank' class='link'>Pisa</a> – l'indagine internazionale triennale promossa sempre dall’OCSE per accertare le competenze dei quindicenni scolarizzati – relativi al 2018, l’Italia emerge come l’unico paese dove gli <span class='bold'>studenti maschi ottengono in media punteggi più alti</span> nell’alfabetizzazione finanziaria rispetto alle studentesse: 15 sono i punti di distacco, mentre negli altri paesi il gender gap è in media di soli due punti.<br/><br/>La domanda sorge spontanea."
       }
     },
     {
@@ -124,7 +103,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Per trovare la risposta, è necessario partire dalle basi.<br/>Le donne possiedono ormai un'istruzione pari a quella degli uomini, occupano posizioni lavorative importanti e sono assolutamente in grado di prendere in mano la propria situazione economica, ma a livello di cultura e tradizione è ancora difficile per molti italiani associare il concetto di donna a quello di denaro."
+        "text": "Per trovare la risposta, è necessario <span class='bold'>partire dalle basi</span>.<br/>Le donne possiedono ormai un'istruzione pari a quella degli uomini, occupano posizioni lavorative importanti e sono assolutamente in grado di prendere in mano la propria situazione economica, ma a livello di cultura e tradizione è ancora difficile per molti italiani <span class='bold'>associare il concetto di donna a quello di denaro.</span>"
       }
     },
     {
@@ -156,7 +135,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Le cose sono sicuramente cambiate dal tempo dei romani, ma l’ambito economico rimane qualcosa di legato al mondo maschile. Basti pensare come gli uomini siano tutt’ora identificati (a livello di senso comune) come i responsabili delle entrate mensili, mentre alle donne rimane la gestione della casa e dei figli. Di conseguenza, anche le scelte finanziarie rimangono competenza maschile se sono gli uomini ad avere più soldi da gestire.<br/><br/>Si tratta di stereotipi di genere duri a morire, anche nell’educazione delle donne più giovani. Come riassume bene Elisabetta Ruspini – professoressa dell’Università degli Studi di Milano-Bicocca e responsabile degli studi di genere per l’Associazione sociologi italiani – «il problema è che quando si parla di donne e denaro si tende a proteggere, non a educare.»"
+        "text": "Le cose sono sicuramente cambiate dal tempo dei romani, ma <span class='bold'>l’ambito economico rimane qualcosa di legato al mondo maschile</span>. Basti pensare come gli uomini siano tutt’ora identificati (a livello di senso comune) come i responsabili delle entrate mensili, mentre alle donne rimane la gestione della casa e dei figli. Di conseguenza, anche le scelte finanziarie rimangono competenza maschile se sono gli uomini ad avere più soldi da gestire.<br/><br/>Si tratta di <span class='bold'>stereotipi di genere</span> duri a morire, anche nell’educazione delle donne più giovani. Come riassume bene Elisabetta Ruspini – professoressa dell’Università degli Studi di Milano-Bicocca e responsabile degli studi di genere per l’Associazione sociologi italiani – «il problema è che quando si parla di donne e denaro si tende a proteggere, non a educare.»"
       }
     },
     {
@@ -169,7 +148,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Secondo un recente Rapporto Consob sulle scelte di investimento delle famiglie italiane, le donne hanno infatti conoscenze finanziarie simili a quelle del partner (o comunque non così distanti come potrebbero pensare), ma hanno meno fiducia nelle proprie capacità. Sono convinte di non essere all'altezza di affrontare questi argomenti, che vengono vissuti come molto tecnici e quindi maschili.<br/><br/>Anche la ricerca già citata della Banca d’Italia dimostra come gli uomini sopravvalutano in generale le proprie competenze, a differenza delle donne, che invece le sottostimano ma ottengono punteggi sopra la media."
+        "text": "Secondo un recente <a href='https://www.consob.it/documents/46180/46181/rf2020.pdf/ccfe7ad2-810f-4490-bd7e-413daa24c391' target='_blank' class='link'>Rapporto Consob sulle scelte di investimento delle famiglie italiane</a>, le donne hanno infatti conoscenze finanziarie simili a quelle del partner (o comunque non così distanti come potrebbero pensare), ma hanno <span class='bold'>meno fiducia nelle proprie capacità</span>. Sono convinte di non essere all'altezza di affrontare questi argomenti, che vengono vissuti come molto tecnici e quindi maschili.<br/><br/>Anche la ricerca già citata della Banca d’Italia dimostra come gli uomini sopravvalutano in generale le proprie competenze, a differenza delle donne, che invece le sottostimano ma ottengono punteggi sopra la media."
       }
     },
     {
@@ -184,7 +163,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Serve un po’ di coraggio, e di consapevolezza, per cambiare le statistiche ed evitare che le donne si allontanino sempre di più dalla gestione del denaro. Non solo perché ne hanno le capacità, ma perché le conseguenze di una mancata educazione finanziaria sono più pesanti per la parte femminile della popolazione."
+        "text": "Serve un po’ di <span class='bold'>coraggio</span>, e di <span class='bold'>consapevolezza</span>, per cambiare le statistiche ed evitare che le donne si allontanino sempre di più dalla gestione del denaro. Non solo perché ne hanno le capacità, ma perché le <span class='bold'>conseguenze</span> di una mancata educazione finanziaria sono più pesanti per la parte femminile della popolazione."
       }
     },
     {
@@ -204,7 +183,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Meno conoscenza significa meno autonomia, in primis; un’equazione che viene aggravata da un minore accesso al mondo del lavoro e da redditi più bassi, e che si trasforma in un circolo vizioso che mina profondamente l’indipendenza economica femminile."
+        "text": "<span class='bold'>Meno conoscenza</span> significa <span class='bold'>meno autonomia</span>, in primis; un’equazione che viene aggravata da un minore accesso al mondo del lavoro e da redditi più bassi, e che si trasforma in un <span class='bold'>circolo vizioso</span> che mina profondamente l’indipendenza economica femminile."
       }
     },
     {
@@ -216,7 +195,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Secondo una delle ultime ricerche del Museo Nazionale del Risparmio, neanche metà del campione femminile intervistato si dichiara autosufficiente dal punto di vista economico."
+        "text": "Secondo una delle ultime ricerche del <a href='https://www.museodelrisparmio.it/wp-content/uploads/2017/09/indagine-MDR-EPISTEME-2018.pdf' target='_blank' class='link'>Museo Nazionale del Risparmio</a>, neanche metà del campione femminile intervistato si dichiara autosufficiente dal punto di vista economico."
       }
     },
     {
@@ -231,7 +210,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "La pandemia poi ha acuito le difficoltà: stando agli ultimi dati Istat, dei 444mila occupati in meno registrati in Italia in tutto il 2020, il 70% è costituito da donne."
+        "text": "La <span class='bold'>pandemia poi ha acuito le difficoltà</span>: stando agli ultimi dati Istat, dei 444mila occupati in meno registrati in Italia in tutto il 2020, il 70% è costituito da donne."
       }
     },
     {
@@ -244,7 +223,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Senza le nozioni di base sulla gestione del denaro, è più difficile programmare il futuro e anche entrare nel mercato del lavoro. Vengono precluse possibilità imprenditoriali e avere voce in capitolo nelle scelte comuni in famiglia diventa quasi impossibile. La crescita personale rischia di bloccarsi, perché non ci sono i mezzi e le condizioni necessarie.<br/><br/>La situazione dell’imprenditoria femminile in Italia, in questo senso, è rappresentativa."
+        "text": "Senza le nozioni di base sulla gestione del denaro, è più <span class='bold'>difficile programmare il futuro</span> e anche entrare nel mercato del lavoro. Vengono <span class='bold'>precluse possibilità imprenditoriali</span> e avere voce in capitolo nelle scelte comuni in famiglia diventa quasi impossibile. La <span class='bold'>crescita personale</span> rischia di bloccarsi, perché non ci sono i mezzi e le condizioni necessarie.<br/><br/><a href='https://www.google.com/url?q=https://www.unioncamere.gov.it/download/10950.html&sa=D&source=editors&ust=1617889765227000&usg=AOvVaw1aephVcPhW9uDilm4P_6SJ' target='_blank' class='link'>La situazione dell’imprenditoria femminile in Italia</a>, in questo senso, è rappresentativa."
       }
     },
     {
@@ -259,7 +238,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Le imprese femminili in Italia sono una su cinque e spesso hanno un accesso più limitato al credito rispetto a quelle guidate da uomini, e quando lo ottengono ricevono maggiori richieste di garanzie. Inoltre, le donne non chiedono perché pensano di ricevere una risposta negativa, mentre chi finanzia vuole più rassicurazioni – e qui si torna al vero punto di partenza, quello culturale.<br/><br/>Lo stesso che fa sì che, a livello quotidiano, siano invece le donne a gestire le finanze domestiche; tranne per quanto riguarda le spese importanti e straordinarie, anche in questo caso appannaggio maschile per una “mancanza di dimestichezza con gli argomenti in questione”, come testimonia la già citata ricerca del Museo del Risparmio. "
+        "text": "Le <span class='bold'>imprese femminili</span> in Italia sono una su cinque e spesso hanno <a href='https://economiapertutti.bancaditalia.it/notizie/le-differenze-di-genere-passano-anche-per-la-violenza-economica/' target='_blank' class='link'>un accesso più limitato al credito</a> rispetto a quelle guidate da uomini, e quando lo ottengono ricevono maggiori richieste di garanzie. Inoltre, le donne non chiedono perché pensano di ricevere una risposta negativa, mentre chi finanzia vuole più rassicurazioni – e qui si torna al vero punto di partenza, quello culturale.<br/><br/>Lo stesso che fa sì che, a livello quotidiano, siano invece le donne a gestire le finanze domestiche; tranne per quanto riguarda le spese importanti e straordinarie, anche in questo caso appannaggio maschile per una “<span class='italic'>mancanza di dimestichezza con gli argomenti in questione</span>”, come testimonia la già citata ricerca del Museo del Risparmio. "
       }
     },
     {
@@ -274,17 +253,17 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Dalle statistiche globali arrivano però buone notizie, le donne stanno guadagnando punti: risparmiano di più, si indebitano meno, i loro depositi crescono del 14% rispetto al 9% degli uomini, e rappresentano una fetta di mercato molto interessante (36%). Le percentuali appartengono al rapporto The economics of banking on women – basato sui dati dell’associazione no profit Gba - Global banking alliance for women – e riguardano 25 banche di 23 Paesi, prendendo in considerazione oltre 32 milioni di clienti donne che aiutano a definire una fotografia migliore per il futuro.",
+        "text": "Dalle statistiche globali arrivano però <span class='bold'>buone notizie</span>, le donne stanno guadagnando punti: risparmiano di più, si indebitano meno, i loro depositi crescono del 14% rispetto al 9% degli uomini, e rappresentano una fetta di mercato molto interessante (36%). Le percentuali appartengono al rapporto <a href='https://financialallianceforwomen.org/download/the-economics-of-banking-on-women-2019-edition/' target='_blank' class='link'>The economics of banking on women</a> – basato sui dati dell’associazione no profit Gba - Global banking alliance for women – e riguardano 25 banche di 23 Paesi, prendendo in considerazione oltre 32 milioni di clienti donne che aiutano a definire una <span class='bold'>fotografia migliore</span> per il futuro.",
         "note": {
           "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
           "rows": [
             {
               "number": "+14%",
-              "description": "crescita depositi donne"
+              "descriptor": "crescita depositi donne"
             },
             {
               "number": "+9%",
-              "description": "crescita depositi uomini"
+              "descriptor": "crescita depositi uomini"
             }
           ],
           "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
@@ -333,7 +312,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Le donne non devono più pensare che concetti come rendimenti, tassi di interesse e inflazione non abbiano a che fare con la loro vita reale; gestire meglio i nostri soldi significa vivere meglio.<br/>Avere la possibilità di emanciparsi, di occuparsi economicamente dei figli, di sostenere le spese di un avvocato è indispensabile per tutte le donne. E anche se una donna non lavora, deve essere parte attiva nelle scelte finanziarie della famiglia in tema di assicurazione, di risparmio e d'investimento."
+        "text": "Le donne non devono più pensare che concetti come rendimenti, tassi di interesse e inflazione non abbiano a che fare con la loro vita reale; <span class='bold'>gestire meglio i nostri soldi significa vivere meglio</span>.<br/>Avere la possibilità di emanciparsi, di occuparsi economicamente dei figli, di sostenere le spese di un avvocato è indispensabile per tutte le donne. E anche se una donna non lavora, deve essere <span class='bold'>parte attiva</span> nelle scelte finanziarie della famiglia in tema di assicurazione, di risparmio e d'investimento."
       }
     },
     {
@@ -346,7 +325,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "L’idea che gestire i soldi sia un’attività da uomini è antica e non rispecchia le potenzialità che ogni donna può far valere in questo campo. Si tratta solo di fare un salto di qualità, attraverso l’educazione finanziaria, per passare dal budget familiare a un mondo più vasto, con lo stesso successo.<br/>Matteo Motterlini, filosofo e neuroeconomista, sostiene infatti che le donne siano più brave a controllare il rischio per due ragioni neurologiche: sono maestre nell’eludere le trappole mentali e imparano socialmente dalle emozioni. Due doti particolarmente apprezzabili a livello finanziario (soprattutto in tempi turbolenti come quelli attuali), che permettono di prendere decisioni più efficaci quando si parla di soldi.<br/><br/>L’arma dell’educazione finanziaria è utile anche nelle sfide della pianificazione. Le donne vivono di più, ma guadagnano meno e affrontano più interruzioni alla carriera legate alla maternità o alla cura dei familiari. Grazie a una conoscenza migliore del tema, queste problematiche possono essere affrontate in modo più sereno e con più consapevolezza."
+        "text": "L’idea che gestire i soldi sia un’attività da uomini è antica e non rispecchia le potenzialità che ogni donna può far valere in questo campo. Si tratta solo di fare un <span class='bold'>salto di qualità</span>, attraverso l’educazione finanziaria, per passare dal budget familiare a un mondo più vasto, con lo stesso successo.<br/>Matteo Motterlini, filosofo e neuroeconomista, sostiene infatti che le <a href='https://www.we-wealth.com/it/news/investimenti/outlook-e-previsioni/maestre-nelleludere-le-trappole-mentali/' target='_blank' class='link'>donne siano più brave a controllare il rischio</a> per due ragioni neurologiche: sono maestre nell’eludere le trappole mentali e imparano socialmente dalle emozioni. Due doti particolarmente apprezzabili a livello finanziario (soprattutto in tempi turbolenti come quelli attuali), che permettono di prendere decisioni più efficaci quando si parla di soldi.<br/><br/>L’arma dell’educazione finanziaria è utile anche nelle <span class='bold'>sfide della pianificazione</span>. Le donne vivono di più, ma guadagnano meno e affrontano più interruzioni alla carriera legate alla maternità o alla cura dei familiari. Grazie a una conoscenza migliore del tema, queste problematiche possono essere affrontate in modo più sereno e con <span class='bold'>più consapevolezza</span>."
       }
     },
     {
@@ -359,7 +338,7 @@
     {
       "type": "Paragraph",
       "content": {
-        "text": "Le donne sono perfettamente in grado di generare denaro, scegliere dove investirlo e usarlo per se stesse e i propri obiettivi; l’importante è imparare come, partendo da piccole somme e ambiti vicini a noi.<br/><br/>Perchè si tratta di investimenti, ma anche di risparmiare, proteggere i propri cari e garantirsi una vecchiaia serena. E in questo senso, ci sono alcuni strumenti semplici e a disposizione di tutte che possono aiutarci nella gestione dei nostri soldi, in più campi e in più modi.<br/>Ecco alcuni esempi:"
+        "text": "Le donne sono perfettamente in grado di generare denaro, scegliere dove investirlo e usarlo per se stesse e i propri obiettivi; l’<span class='bold'>importante è imparare come</span>, partendo da piccole somme e ambiti vicini a noi.<br/><br/>Perchè si tratta di investimenti, ma anche di risparmiare, proteggere i propri cari e garantirsi una vecchiaia serena.<br/>Su questi temi, puoi trovare in <span class='bold'>BPER Banca</span> tutto l’aiuto necessario, attraverso consulenti preparati per affiancarti e consigliarti le migliori strategie per raggiungere i tuoi obiettivi.<br/>Ci sono infatti più <span class='bold'>strumenti semplici</span> e a disposizione di tutte che possono essere utili nella gestione dei nostri soldi, in modi e campi diversi.<br/>Ecco alcuni esempi."
       }
     },
     {
