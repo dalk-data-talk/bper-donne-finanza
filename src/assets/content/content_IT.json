@@ -41,15 +41,15 @@
           "rows": [
             {
               "number": "26",
-              "descriptor": "paesi<br/>intervistati"
+              "descriptor": "<p style='padding-left: 24px;'>paesi<br/>intervistati</p>"
             },
             {
               "number": "21",
-              "descriptor": "punteggio<br/>massimo"
+              "descriptor": "<p style='padding-left: 24px;'>punteggio<br/>massimo</p>"
             },
             {
               "number": "12,7",
-              "descriptor": "<p style='transform: translateX(-13px);'>media<br/>punteggio</p>"
+              "descriptor": "<p style='padding-left: 24px;'>media<br/>punteggio</p>"
             }
           ],
           "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
@@ -261,15 +261,16 @@
       "content": {
         "text": "Dalle statistiche globali arrivano però <span class='bold'>buone notizie</span>, le donne stanno guadagnando punti: risparmiano di più, si indebitano meno, i loro depositi crescono del 14% rispetto al 9% degli uomini, e rappresentano una fetta di mercato molto interessante (36%). Le percentuali appartengono al rapporto <a href='https://financialallianceforwomen.org/download/the-economics-of-banking-on-women-2019-edition/' target='_blank' class='link'>The economics of banking on women</a> – basato sui dati dell’associazione no profit Gba - Global banking alliance for women – e riguardano 25 banche di 23 Paesi, prendendo in considerazione oltre 32 milioni di clienti donne che aiutano a definire una <span class='bold'>fotografia migliore</span> per il futuro.",
         "note": {
+          "id": "numeric-highlight-2",
           "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
           "rows": [
             {
               "number": "+14%",
-              "descriptor": "crescita depositi donne"
+              "descriptor": "<p style='padding-left: 80px;'>crescita depositi<br/>donne</p>"
             },
             {
               "number": "+9%",
-              "descriptor": "crescita depositi uomini"
+              "descriptor": "<p style='padding-left: 80px; padding-bottom: 12px;'>crescita depositi<br/>uomini</p>"
             }
           ],
           "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
