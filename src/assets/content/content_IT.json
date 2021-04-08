@@ -130,7 +130,8 @@
       "type": "ImgStatic",
       "content": {
         "img": "struttura_definizione.png",
-        "col_size_sm": 12,
+        "col_size_xs": 8,
+        "col_size_sm": 6,
         "col_size_lg": 4
       }
     },
@@ -192,6 +193,7 @@
       "type": "ImgStatic",
       "content": {
         "img": "circolo_vizioso.png",
+        "col_size_xs": 12,
         "col_size_sm": 12,
         "col_size_lg": 6
       }
@@ -272,24 +274,6 @@
           ],
           "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
         }
-      }
-    },
-    {
-      "type": "NumericHighlight",
-      "content": {
-        "id": "numeric-highlight-2",
-        "title": "OECD/INFE 2020 International Survey of Adult Financial Literacy",
-        "rows": [
-          {
-            "number": "<span class='small'>+</span>14<span class='small'>%</span>",
-            "descriptor": "crescita<br/>depositi donne"
-          },
-          {
-            "number": "<span class='small'>+</span>9<span class='small'>%</span>",
-            "descriptor": "crescita<br/>depositi uomini"
-          }
-        ],
-        "source": "Fonte: OECD/INFE 2020 International Survey of Adult Financial Literacy"
       }
     },
     {

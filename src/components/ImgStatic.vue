@@ -2,7 +2,7 @@
   <div class="img-static-container">
     <b-container>
       <b-row>
-        <b-col :sm="content.col_size_sm" :lg="content.col_size_lg" class="image-container">
+        <b-col :cols="content.col_size_xs" :sm="content.col_size_sm" :lg="content.col_size_lg" class="image-container">
           <img :src="'./images/'+content.img">
         </b-col>
       </b-row>
