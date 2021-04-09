@@ -1,6 +1,6 @@
 {
   "title": "Donne e finanza",
-  "loading_animation": false,
+  "loading_animation": true,
   "chapters": ["Alfabetizzazione finanziaria", "Gender gap", "Conseguenze", "Educazione finanziaria"],
   "sections": [
     {
