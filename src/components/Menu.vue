@@ -2,16 +2,14 @@
   <div class="menu-container">
     <!-- menu mobile -->
     <div v-if="$mq != 'desktop'" :class="['menu', {'menu-shown' : menuModalOpen}]">
+      <div @click="clickBurger">button</div>
       <transition name="fade">
         <MenuModal v-show="menuModalOpen" v-scroll-lock="menuModalOpen" v-on:scrollChapter="onScrollChapter"/>
       </transition>
     </div>
     <div v-else>
       <div class="menu-desktop">
-        <div @click="goToChapter('#section-opening-1')">Capitolo 1</div>
-        <div @click="goToChapter('#section-opening-2')">Capitolo 2</div>
-        <div @click="goToChapter('#section-opening-3')">Capitolo 3</div>
-        <div @click="goToChapter('#section-opening-4')">Capitolo 4</div>
+        <div class="element" v-for="(chapter, c) in content" :key="c" @click="goToChapter('#section-opening-'+(c+1))">{{chapter}}</div>
       </div>
     </div>
   </div>
@@ -55,6 +53,9 @@ export default {
     goToChapter(chapter){
       this.cancelScroll = this.$scrollTo(chapter, 2000, this.options)
       this.menuModalOpen = false
+    },
+    clickBurger(){
+      this.menuModalOpen = true
     }
   },
   components: {
@@ -77,6 +78,7 @@ export default {
   width: 100vw;
   height: 60px;
   background-color: $bper-bianco;
+  z-index: 9999;
 }
 .menu-shown{
   z-index: 9999;
@@ -84,9 +86,29 @@ export default {
 
 .menu-desktop{
   position: fixed;
-  width: 600px;
-  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 50px;
+  left: 100px;
+  height: 50px;
+  border-radius: 5px;
   background-color: $bper-verde-chiaro;
+  box-shadow: $bper-dropdown-shadow;
+  z-index: 9999;
+  padding-left: 40px;
+  padding-right: 40px;
+  .element{
+    @include menu-element--desktop;
+    cursor: pointer;
+    border-right: 1px solid $bper-bianco;
+    padding-left: 24px;
+    padding-right: 28px;
+  }
+  .element:last-child{
+    border-right: none;
+  }
 }
 
 // --- fade animation
