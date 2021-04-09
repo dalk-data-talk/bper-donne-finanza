@@ -1,30 +1,25 @@
 <template>
   <div class="longform">
-    <!-- <LoadingPage v-if="isLoading" v-on:finishedLoadingAnimation="finishedAnimation"/>
-    <LongformContent v-else/> -->
-    <LongformContent/>
-    <!-- esempio bootstrap -->
-    <!-- <b-container class="bv-example-row">
-      <b-row>
-        <b-col>1 of 3</b-col>
-        <b-col>2 of 3</b-col>
-        <b-col>3 of 3</b-col>
-      </b-row>
-    </b-container> -->
+     <transition name="slide-fade">
+      <LoadingPage v-if="isLoading" v-on:finishedLoadingAnimation="finishedAnimation"/>
+      <LongformContent v-else/>
+    </transition>
   </div>
 </template>
 
 <script>
+import LoadingPage from '../components/LoadingPage.vue'
 import LongformContent from '../components/LongformContent.vue'
 export default {
   name: 'Longform',
   props: [],
   components: {
+    LoadingPage,
     LongformContent
   },
   data: function () {
     return {
-      isLoading: true,
+      isLoading: this.$ml.get('loading_animation'),
     }
   },
   created() {
@@ -43,41 +38,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-@import "@/assets/scss/fonts.scss";
+@import "@/assets/scss/bper-fonts.scss";
 @import "@/assets/scss/colors.scss";
-
-.longform{
-  background-color: $rose-quartz;
-  .bv-example-row{
-    background-color: black;
-  }
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .3s ease;
 }
-@media (min-width: 576px) {
-  .longform{
-    .bv-example-row{
-      background-color: red;
-    }
-  }
+.slide-fade-leave-active {
+  transition: all .3s ease;
 }
-@media (min-width: 768px) {
-  .longform{
-    .bv-example-row{
-      background-color: orange;
-    }
-  }
-}
-@media (min-width: 992px) {
-  .longform{
-    .bv-example-row{
-      background-color: yellow;
-    }
-  }
-}
-@media (min-width: 1200px) {
-  .longform{
-    .bv-example-row{
-      background-color: green;
-    }
-  }
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>
