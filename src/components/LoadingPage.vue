@@ -1,6 +1,6 @@
 <template>
   <div class="loading-page-container">
-    <div class="loading-text" v-scroll-lock="true">Loading...</div>
+    <div class="loading-text" v-scroll-lock="true">Caricamento...</div>
     <div class="horizontal-line-container">
       <div class="horizontal-line"></div>
     </div>
@@ -58,7 +58,7 @@ export default {
 
 <!-- Use preprocessors via the lang attribute! e.g. <style lang="scss"> -->
 <style lang="scss" scoped>
-@import "@/assets/scss/fonts.scss";
+@import "@/assets/scss/bper-fonts.scss";
 @import "@/assets/scss/colors.scss";
 .loading-page-container{
   position: absolute;
