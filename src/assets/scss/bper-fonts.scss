@@ -245,6 +245,13 @@
   color: $bper-bianco;
 }
 
+@mixin menu-element--desktop {
+  font-family: KievitOT;
+  font-size: 18px;
+  text-align: center;
+  color: $bper-bianco;
+}
+
 @mixin loading-text {
   font-family: KievitOT;
   font-size: 18px;
