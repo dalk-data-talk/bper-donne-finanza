@@ -1,6 +1,6 @@
 <template>
   <div class="longform-content">
-    <Menu :content="$ml.get('chapters')"/>
+    <Menu v-if="$ml.get('menu')" :content="$ml.get('chapters')"/>
     <div
       v-for="(section, s) in $ml.get('sections')"
       :key="s"
@@ -52,5 +52,6 @@ export default {
 .longform-content{
   background-color: $bper-bianco;
   overflow-x: hidden!important;
+  padding-top: 100px;
 }
 </style>
