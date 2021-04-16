@@ -3,14 +3,23 @@
     <b-container>
       <b-row>
         <b-col class="container">
-          <div class="line"></div>
+          <div class="box">
+            <div class="title" v-html="content.title"/>
+            <div class="description" v-html="content.description"/>
+            <div class="links">
+              <div v-for="(link,l) in content.links" :key="l">
+                <a :href="link.link" target="_blank" v-text="link.label"></a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="line"></div>
           <div class="title" v-html="content.title"></div>
           <div class="description" v-html="content.description"></div>
           <div class="links">
             <div v-for="(link,l) in content.links" :key="l">
               <a :href="link.link" target="_blank" v-text="link.label"></a>
             </div>
-          </div>
+          </div> -->
         </b-col>
       </b-row>
     </b-container>
@@ -57,15 +66,23 @@ export default {
 @import "@/assets/scss/colors.scss";
 .voce-glossario-container{
   .container{
+    .box{
+      background: $bper-bianco;
+      box-shadow: $bper-dropdown-shadow;
+      border-radius: 2px;
+      margin-bottom: 24px;
+      padding: 24px 21px;
+      .title{
+        @include voce-glossario-title;
+        text-transform: uppercase;
+        padding-bottom: 21px;
+      }
+    }
     .line{
       border:none;
       border-top: 1px dashed $bper-verde-scuro;
       height:1px;
       width:100%;
-    }
-    .title{
-      @include voce-glossario-title;
-      text-transform: uppercase;
     }
     .description{
       @include paragraph;
@@ -76,7 +93,6 @@ export default {
       color: $bper-verde-scuro !important;
       text-decoration: none;
       @include paragraph;
-      padding-bottom: 40px;
       a{
         color: $bper-verde-scuro;
       }
