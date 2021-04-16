@@ -15,6 +15,9 @@
         </b-col>
       </b-row>
     </b-container>
+    <div v-if="$mq == 'desktop'" :class="['illustration-desktop', {'illustration-left' : content.position == 'left'}, {'illustration-right' : content.position == 'right'}]">
+      <img :src="'./images/illustrations/desktop/'+content.illustration.name"/>
+    </div>
   </div>
 </template>
 
@@ -23,6 +26,14 @@ import NumericHighlight from '../components/NumericHighlight.vue'
 export default {
   name: 'Paragraph',
   props: ["content"],
+  data() {
+    return {
+      isLoading: true,
+      timeline: null
+    }
+  },
+  computed: {
+  },
   mounted() {
   },
   methods: {
@@ -51,6 +62,22 @@ export default {
     .source{
       @include numeric-highlight-source;
     }
+  }
+  .illustration-desktop{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-280px);
+    img{
+      width: 350px;
+    }
+  }
+  .illustration-left{
+    justify-content: flex-start;
+  }
+  .illustration-right{
+    justify-content: flex-end;
   }
 }
 // -- media query tablet
