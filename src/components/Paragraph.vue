@@ -16,7 +16,6 @@
       </b-row>
     </b-container>
     <div v-if="content.illustration">
-      <!-- illustration desktop -->
       <div v-if="$mq == 'desktop'" :class="['illustration-desktop', {'illustration-left' : content.illustration.position == 'left'}, {'illustration-right' : content.illustration.position == 'right'}]">
         <img :src="'./images/illustrations/desktop/'+content.illustration.name" :style="content.illustration.desktop_tweaks"/>
       </div>
