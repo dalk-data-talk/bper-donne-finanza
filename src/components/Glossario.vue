@@ -1,6 +1,7 @@
 <template>
   <div class="glossario-container">
     <VoceGlossario v-for="(voce,v) in content.voci" :key="v" :content="voce"/>
+    <div class="vertical-line"></div>
   </div>
 </template>
 
@@ -28,7 +29,19 @@ export default {
 @import "@/assets/scss/bper-fonts.scss";
 @import "@/assets/scss/colors.scss";
 .glossario-container{
+  position: relative;
   padding-bottom: 24px;
+  height: 100%;
+  .vertical-line{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: transparent;
+    border-left: $bper-dash;
+    z-index: 0;
+  }
 }
 
 // -- media query tablet (landscape) + desktop
