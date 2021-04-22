@@ -7,6 +7,9 @@
           <b-col>
             <div class="title" v-html="content.title"></div>
             <div class="description" v-html="content.description"></div>
+            <div v-if="content.mobile_legend" class="mobile_legend">
+              <img :src="'./images/'+content.mobile_legend" alt="">
+            </div>
             <div class="container-img">
               <img v-for="(img,i) in content.mobile" :key="i" class="img" :src="'./images/'+img"/>
             </div>
@@ -82,6 +85,17 @@ export default {
     @include footer-text-element;
     padding-bottom: 24px;
   }
+  .mobile_legend{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    padding-left: 21px;
+    padding-right: 21px;
+    img{
+      position: relative;
+      width: 100%;
+    }
+  }
   .container-img{
     display: flex;
     flex-direction: column;
@@ -147,5 +161,17 @@ export default {
       }
     }
   }
+}
+// -- media query tablet
+@media only screen 
+  and (min-device-width: 450px) 
+  and (max-device-width: 1250px) {
+    .viz-container{
+      .mobile_legend{
+        img{
+          width: 50%;
+        }
+      }
+    }
 }
 </style>

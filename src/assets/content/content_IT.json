@@ -99,6 +99,7 @@
         "title": "Alfabetizzazione in Italia per genere",
         "description": "Punteggi medi di alfabetizzazione finanziaria e delle sue componenti<br/>(2017-2020)",
         "img_legend": "viz-1-legend-desktop.png",
+        "mobile_legend": "viz-1-legend-mobile.png",
         "mobile": ["viz-2.png"],
         "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020",
         "type_desktop": 1,
