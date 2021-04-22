@@ -15,8 +15,17 @@
         </b-col>
       </b-row>
     </b-container>
-    <div v-if="$mq == 'desktop' && content.illustration" :class="['illustration-desktop', {'illustration-left' : content.illustration.position == 'left'}, {'illustration-right' : content.illustration.position == 'right'}]">
-      <img :src="'./images/illustrations/desktop/'+content.illustration.name" :style="content.illustration.desktop_tweaks"/>
+    <div v-if="content.illustration">
+      <!-- illustration desktop -->
+      <div v-if="$mq == 'desktop'" :class="['illustration-desktop', {'illustration-left' : content.illustration.position == 'left'}, {'illustration-right' : content.illustration.position == 'right'}]">
+        <img :src="'./images/illustrations/desktop/'+content.illustration.name" :style="content.illustration.desktop_tweaks"/>
+      </div>
+      <div v-if="$mq == 'mobile'" class="illustration-mobile">
+        <img v-if="content.illustration.mobile_tweaks" :src="'./images/illustrations/desktop/'+content.illustration.name" :style="content.illustration.mobile_tweaks">
+      </div>
+      <div v-if="$mq == 'tablet'" class="illustration-mobile">
+        <img v-if="content.illustration.tablet_tweaks" :src="'./images/illustrations/desktop/'+content.illustration.name" :style="content.illustration.tablet_tweaks">
+      </div>
     </div>
   </div>
 </template>
@@ -78,6 +87,13 @@ export default {
   }
   .illustration-right{
     justify-content: flex-end;
+  }
+  .illustration-mobile{
+    position: absolute;
+    right: 0px;
+    img{
+      width: 100px;
+    }
   }
 }
 // -- media query tablet

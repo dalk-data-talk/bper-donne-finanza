@@ -22,6 +22,7 @@ import HorizontalSlider from '../components/HorizontalSlider.vue'
 import Notes from '../components/Notes.vue'
 import Viz from '../components/Viz.vue'
 import ImgStatic from '../components/ImgStatic.vue'
+import Glossario from '../components/Glossario.vue'
 import VoceGlossario from '../components/VoceGlossario.vue'
 export default {
   mounted: function() {
@@ -40,6 +41,7 @@ export default {
     Notes,
     Viz,
     ImgStatic,
+    Glossario,
     VoceGlossario
   }
 };
@@ -51,7 +53,6 @@ export default {
 @import "@/assets/scss/fonts.scss";
 .longform-content{
   background-color: $bper-bianco;
-  overflow-x: hidden!important;
   padding-top: 100px;
 }
 </style>

@@ -12,14 +12,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="line"></div>
-          <div class="title" v-html="content.title"></div>
-          <div class="description" v-html="content.description"></div>
-          <div class="links">
-            <div v-for="(link,l) in content.links" :key="l">
-              <a :href="link.link" target="_blank" v-text="link.label"></a>
-            </div>
-          </div> -->
         </b-col>
       </b-row>
     </b-container>
@@ -41,6 +33,7 @@ export default {
     gsap.registerPlugin(ScrollTrigger);
     gsap.set("#" + this.content.id + " .container" ,{autoAlpha: 0, x: -50, skewX: -10});
     this.scrollAnimation();
+    console.log(this.content.id)
   },
   methods: {
     scrollAnimation() {
@@ -99,4 +92,16 @@ export default {
     }
   }
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (orientation: landscape){
+    .voce-glossario-container{
+      width: calc(100%/2);
+      .container{
+        .box{
+        }
+      }
+    }
+  }
 </style>

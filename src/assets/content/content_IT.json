@@ -22,7 +22,7 @@
       "type": "Highlight",
       "content": {
         "id": "highlight-1",
-        "text": "Il processo attraverso il quale i consumatori, i risparmiatori e gli investitori migliorano le loro capacità di comprensione dei prodotti finanziari e dei concetti che ne sono alla base e attraverso istruzioni, informazioni, consigli sviluppano attitudini e conoscenze atte a comprendere i rischi e le opportunità di fare scelte informate […]"
+        "text": "Il processo attraverso il quale i consumatori, i risparmiatori e gli investitori migliorano le loro capacità di comprensione dei prodotti finanziari"
       }
     },
     {
@@ -32,7 +32,9 @@
         "illustration": {
           "name": "pen.png",
           "position": "right",
-          "desktop_tweaks": "transform: translate(15px, -50px)"
+          "desktop_tweaks": "transform: translate(15px, -50px)",
+          "mobile_tweaks": "transform: translate(0px,-460px) scale(1)",
+          "tablet_tweaks": "transform: translate(0px,-350px) scale(1)"
         }
       }
     },
@@ -110,7 +112,9 @@
         "illustration": {
           "name": "question_mark.png",
           "position": "left",
-          "desktop_tweaks": "transform: translate(0px, -100px)"
+          "desktop_tweaks": "transform: translate(0px, -100px)",
+          "mobile_tweaks": "transform: translate(30px,25px) scale(1)",
+          "tablet_tweaks": "transform: translate(0px,0px) scale(1)"
         }
       }
     },
@@ -257,7 +261,9 @@
         "illustration": {
           "name": "writing_diary.png",
           "position": "left",
-          "desktop_tweaks": "transform: translate(50px, -300px) scale(1.2)"
+          "desktop_tweaks": "transform: translate(50px, -300px) scale(1.2)",
+          "mobile_tweaks": "transform: translate(10px,-1350px) scale(1)",
+          "tablet_tweaks": "transform: translate(0px,-1440px) scale(1)"
         }
       }
     },
@@ -329,7 +335,8 @@
         "illustration": {
           "name": "woman_thinking.png",
           "position": "right",
-          "desktop_tweaks": "transform: translate(0px, 200px)"
+          "desktop_tweaks": "transform: translate(0px, 200px)",
+          "mobile_tweaks": "transform: translate(0px, 230px) scale(1)"
         }
       }
     },
@@ -361,7 +368,8 @@
         "illustration": {
           "name": "woman_yoga.png",
           "position": "right",
-          "desktop_tweaks": "transform: translate(-50px, 0px) scale(1.3)"
+          "desktop_tweaks": "transform: translate(-50px, 0px) scale(1.3)",
+          "mobile_tweaks": "transform: translate(30px, -30px) scale(1)"
         }
       }
     },
@@ -397,61 +405,60 @@
       }
     },
     {
-      "type": "VoceGlossario",
+      "type": "Glossario",
       "content": {
-        "id": "voce-glossario-1",
-        "title": "Piani di risparmio (pac e pir)",
-        "description": "Il piano di risparmio è uno strumento che ti permette di mettere in atto una strategia di risparmio, per raggiungere un determinato capitale, per te o per i tuoi cari. Qualsiasi sia l’obiettivo, anche le piccole risparmiatrici possono investire in questi strumenti; In Italia, puoi scegliere tra diversi tipi, e tra questi ci sono i Pac e i Pir.",
-        "links": [
+        "voci": [
           {
-            "label": "+ PAC",
-            "link": "https://wealth.bper.it/piani-accumulo-capitale"
+            "id": "voce-glossario-1",
+            "title": "Piani di risparmio (pac e pir)",
+            "description": "Il piano di risparmio è uno strumento che ti permette di mettere in atto una strategia di risparmio, per raggiungere un determinato capitale, per te o per i tuoi cari. Qualsiasi sia l’obiettivo, anche le piccole risparmiatrici possono investire in questi strumenti; In Italia, puoi scegliere tra diversi tipi, e tra questi ci sono i Pac e i Pir.",
+            "links": [
+              {
+                "label": "+ PAC",
+                "link": "https://wealth.bper.it/piani-accumulo-capitale"
+              },
+              {
+                "label": "+ PIR",
+                "link": "https://wealth.bper.it/cosa-sono-i-pir-come-funzionano-vantaggi-e-caratteristiche"
+              }
+            ]
           },
           {
-            "label": "+ PIR",
-            "link": "https://wealth.bper.it/cosa-sono-i-pir-come-funzionano-vantaggi-e-caratteristiche"
-          }
-        ]
-      }
-    },
-    {
-      "type": "VoceGlossario",
-      "content": {
-        "id": "voce-glossario-2",
-        "title": "Investimenti sostenibili (esg)",
-        "description": "Gli investimenti sostenibili sono investimenti che puntano su imprese con attività economiche che contribuiscono al raggiungimento di determinati obiettivi fondati su aspetti di natura ambientale (“Environmental”), sociale (“Social”) e di buon governo (“Governance”).<br/>Secondo Claudia Segre della Global Thinking Foundation, il 77% delle donne dà già priorità a queste tematiche, rappresentando la chiave del cambiamento e un punto di partenza per centrare gli obiettivi di sviluppo sostenibile dell’Agenda 2030.",
-        "links": [
+            "id": "voce-glossario-2",
+            "title": "Investimenti sostenibili (esg)",
+            "description": "Gli investimenti sostenibili sono investimenti che puntano su imprese con attività economiche che contribuiscono al raggiungimento di determinati obiettivi fondati su aspetti di natura ambientale (“Environmental”), sociale (“Social”) e di buon governo (“Governance”).<br/>Secondo Claudia Segre della Global Thinking Foundation, il 77% delle donne dà già priorità a queste tematiche, rappresentando la chiave del cambiamento e un punto di partenza per centrare gli obiettivi di sviluppo sostenibile dell’Agenda 2030.",
+            "links": [
+              {
+                "label": "+ Quali sono le differenze tra un fondo con universo di investimento tradizionale e uno ESG?",
+                "link": "https://wealth.bper.it/quali-sono-le-differenze-tra-un-fondo-con-universo-di-investimento-tradizionale-e-uno-esg"
+              }
+            ]
+          },
           {
-            "label": "+ Quali sono le differenze tra un fondo con universo di investimento tradizionale e uno ESG?",
-            "link": "https://wealth.bper.it/quali-sono-le-differenze-tra-un-fondo-con-universo-di-investimento-tradizionale-e-uno-esg"
-          }
-        ]
-      }
-    },
-    {
-      "type": "VoceGlossario",
-      "content": {
-        "id": "voce-glossario-3",
-        "title": "Polizze (home, health, life insurance)",
-        "description": "I diversi tipi di polizze disponibili oggi sono un modo per proteggere la tua ricchezza senza rinunciare ad investirla. Che si tratti della nostra salute, della nostra casa o della nostra vita, grazie alle polizze assicurative è possibile ridurre o azzerare le conseguenze degli eventi fuori dal tuo controllo, senza dover contare solo sulla tua liquidità.",
-        "links": [
+            "id": "voce-glossario-3",
+            "title": "Polizze (home, health, life insurance)",
+            "description": "I diversi tipi di polizze disponibili oggi sono un modo per proteggere la tua ricchezza senza rinunciare ad investirla. Che si tratti della nostra salute, della nostra casa o della nostra vita, grazie alle polizze assicurative è possibile ridurre o azzerare le conseguenze degli eventi fuori dal tuo controllo, senza dover contare solo sulla tua liquidità.",
+            "links": [
+              {
+                "label": "+ Come (e perché) proteggere la propria ricchezza",
+                "link": "https://wealth.bper.it/come-e-perch%C3%A9-proteggere-la-propria-ricchezza"
+              },
+              {
+                "label": "+ Perché sottoscrivere una Polizza Salute",
+                "link": "https://wealth.bper.it/perch%C3%A9-sottoscrivere-una-polizza-salute"
+              }
+            ]
+          },
           {
-            "label": "+ Come (e perché) proteggere la propria ricchezza",
-            "link": "https://wealth.bper.it/perch%C3%A9-sottoscrivere-una-polizza-salute"
-          }
-        ]
-      }
-    },
-    {
-      "type": "VoceGlossario",
-      "content": {
-        "id": "voce-glossario-4",
-        "title": "Previdenza complementare (fondi pensione)",
-        "description": "La previdenza complementare è una forma di integrazione facoltativa, che si aggiunge alla previdenza obbligatoria (ovvero ai contributi INPS versati da ogni lavoratore per avere diritto alla pensione) e permette di aggiungere una rendita alla pensione futura, per vivere la tua vecchiaia con più serenità. Inoltre, puoi designare tra beneficiari anche i tuoi cari: i tuoi figli o il tuo compagno, ad esempio.",
-        "links": [
-          {
-            "label": "+ La previdenza complementare: perché aderire a un fondo pensione (integrativo)",
-            "link": "https://wealth.bper.it/la-previdenza-complementare-perch%C3%A9-aderire-un-fondo-pensione-integrativo"
+            "id": "voce-glossario-4",
+            "title": "Previdenza complementare (fondi pensione)",
+            "description": "La previdenza complementare è una forma di integrazione facoltativa, che si aggiunge alla previdenza obbligatoria (ovvero ai contributi INPS versati da ogni lavoratore per avere diritto alla pensione) e permette di aggiungere una rendita alla pensione futura, per vivere la tua vecchiaia con più serenità. Inoltre, puoi designare tra beneficiari anche i tuoi cari: i tuoi figli o il tuo compagno, ad esempio.",
+            "links": [
+              {
+                "label": "+ La previdenza complementare: perché aderire a un fondo pensione (integrativo)",
+                "link": "https://wealth.bper.it/la-previdenza-complementare-perch%C3%A9-aderire-un-fondo-pensione-integrativo"
+              }
+            ]
           }
         ]
       }
