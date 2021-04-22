@@ -57,6 +57,7 @@ export default {
 @import "@/assets/scss/bper-fonts.scss";
 @import "@/assets/scss/colors.scss";
 .paragraph-container{
+  position: relative;
   padding-bottom: 40px;
   .row{
     display: flex;
