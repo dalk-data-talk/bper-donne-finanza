@@ -31,7 +31,8 @@
         "text": "Secondo l’OCSE, è questa la definizione di educazione finanziaria: un tema sempre più centrale nel mondo di oggi, dove i mercati e il sistema economico diventano via via più complessi.<br/>Un insieme di conoscenze, un mezzo, ma anche <span class='bold'>un’opportunità</span> e un punto di partenza per migliorare la propria condizione finanziaria e non solo – specialmente quando si parla di donne.",
         "illustration": {
           "name": "pen.png",
-          "position": "left"
+          "position": "right",
+          "desktop_tweaks": "transform: translate(15px, -50px)"
         }
       }
     },
@@ -65,8 +66,9 @@
       "content": {
         "text": "Ma se il problema è comune, <span class='bold'>l’Italia ha il “primato” per quanto riguarda il punteggio minimo</span>, fermo a 11,1. Un punteggio che si abbassa ulteriormente quando si considera solo la popolazione femminile, ferma a un punteggio di 10.9.",
         "illustration": {
-          "name": "heels.png",
-          "position": "left"
+          "name": "woman-standing.png",
+          "position": "left",
+          "desktop_tweaks": "transform: translate(0px, 0px) scale(1.3)"
         }
       }
     },
@@ -107,7 +109,8 @@
         "text": "Secondo gli autori della ricerca, sono soprattutto casalinghe e pensionate a contribuire all’<span class='bold'>ampliamento della distanza</span>, ma prendendo in considerazione le fasce più giovani la panoramica non cambia molto.<br/><br/>Nei risultati dell’ultima tornata di test <a href='http://www.oecd.org/daf/pisa-2018-results-volume-iv-48ebd1ba-en.htm' target='_blank' class='link'>Pisa</a> – l'indagine internazionale triennale promossa sempre dall’OCSE per accertare le competenze dei quindicenni scolarizzati – relativi al 2018, l’Italia emerge come l’unico paese dove gli <span class='bold'>studenti maschi ottengono in media punteggi più alti</span> nell’alfabetizzazione finanziaria rispetto alle studentesse: 15 sono i punti di distacco, mentre negli altri paesi il gender gap è in media di soli due punti.<br/><br/>La domanda sorge spontanea.",
         "illustration": {
           "name": "question_mark.png",
-          "position": "left"
+          "position": "left",
+          "desktop_tweaks": "transform: translate(0px, -100px)"
         }
       }
     },
@@ -172,7 +175,8 @@
         "text": "Secondo un recente <a href='https://www.consob.it/documents/46180/46181/rf2020.pdf/ccfe7ad2-810f-4490-bd7e-413daa24c391' target='_blank' class='link'>Rapporto Consob sulle scelte di investimento delle famiglie italiane</a>, le donne hanno infatti conoscenze finanziarie simili a quelle del partner (o comunque non così distanti come potrebbero pensare), ma hanno <span class='bold'>meno fiducia nelle proprie capacità</span>. Sono convinte di non essere all'altezza di affrontare questi argomenti, che vengono vissuti come molto tecnici e quindi maschili.<br/><br/>Anche la ricerca già citata della Banca d’Italia dimostra come gli uomini sopravvalutano in generale le proprie competenze, a differenza delle donne, che invece le sottostimano ma ottengono punteggi sopra la media.",
         "illustration": {
           "name": "leaves.png",
-          "position": "right"
+          "position": "right",
+          "desktop_tweaks": "transform: translate(0px, -80px) scale(1.4)"
         }
       }
     },
@@ -228,8 +232,9 @@
       "content": {
         "text": "Secondo una delle ultime ricerche del <a href='https://www.museodelrisparmio.it/wp-content/uploads/2017/09/indagine-MDR-EPISTEME-2018.pdf' target='_blank' class='link'>Museo Nazionale del Risparmio</a>, neanche metà del campione femminile intervistato si dichiara autosufficiente dal punto di vista economico.",
         "illustration": {
-          "name": "lipstick.png",
-          "position": "right"
+          "name": "mirror-makeup.png",
+          "position": "right",
+          "desktop_tweaks": ""
         }
       }
     },
@@ -251,7 +256,8 @@
         "text": "La <span class='bold'>pandemia poi ha acuito le difficoltà</span>: stando agli ultimi dati Istat, dei 444mila occupati in meno registrati in Italia in tutto il 2020, il 70% è costituito da donne.",
         "illustration": {
           "name": "writing_diary.png",
-          "position": "left"
+          "position": "left",
+          "desktop_tweaks": "transform: translate(50px, -300px) scale(1.2)"
         }
       }
     },
@@ -268,7 +274,8 @@
         "text": "Senza le nozioni di base sulla gestione del denaro, è più <span class='bold'>difficile programmare il futuro</span> e anche entrare nel mercato del lavoro. Vengono <span class='bold'>precluse possibilità imprenditoriali</span> e avere voce in capitolo nelle scelte comuni in famiglia diventa quasi impossibile. La <span class='bold'>crescita personale</span> rischia di bloccarsi, perché non ci sono i mezzi e le condizioni necessarie.<br/><br/><a href='https://www.google.com/url?q=https://www.unioncamere.gov.it/download/10950.html&sa=D&source=editors&ust=1617889765227000&usg=AOvVaw1aephVcPhW9uDilm4P_6SJ' target='_blank' class='link'>La situazione dell’imprenditoria femminile in Italia</a>, in questo senso, è rappresentativa.",
         "illustration": {
           "name": "growing_chart.png",
-          "position": "right"
+          "position": "right",
+          "desktop_tweaks": "transform: translate(0px, 0px) scale(0.9)"
         }
       }
     },
@@ -321,7 +328,8 @@
         },
         "illustration": {
           "name": "woman_thinking.png",
-          "position": "right"
+          "position": "right",
+          "desktop_tweaks": "transform: translate(0px, 200px)"
         }
       }
     },
@@ -352,7 +360,8 @@
         "text": "Le donne non devono più pensare che concetti come rendimenti, tassi di interesse e inflazione non abbiano a che fare con la loro vita reale; <span class='bold'>gestire meglio i nostri soldi significa vivere meglio</span>.<br/>Avere la possibilità di emanciparsi, di occuparsi economicamente dei figli, di sostenere le spese di un avvocato è indispensabile per tutte le donne. E anche se una donna non lavora, deve essere <span class='bold'>parte attiva</span> nelle scelte finanziarie della famiglia in tema di assicurazione, di risparmio e d'investimento.",
         "illustration": {
           "name": "woman_yoga.png",
-          "position": "right"
+          "position": "right",
+          "desktop_tweaks": "transform: translate(-50px, 0px) scale(1.3)"
         }
       }
     },
@@ -382,7 +391,8 @@
         "text": "Le donne sono perfettamente in grado di generare denaro, scegliere dove investirlo e usarlo per se stesse e i propri obiettivi; l’<span class='bold'>importante è imparare come</span>, partendo da piccole somme e ambiti vicini a noi.<br/><br/>Perchè si tratta di investimenti, ma anche di risparmiare, proteggere i propri cari e garantirsi una vecchiaia serena.<br/>Su questi temi, puoi trovare in <span class='bold'>BPER Banca</span> tutto l’aiuto necessario, attraverso consulenti preparati per affiancarti e consigliarti le migliori strategie per raggiungere i tuoi obiettivi.<br/>Ci sono infatti più <span class='bold'>strumenti semplici</span> e a disposizione di tutte che possono essere utili nella gestione dei nostri soldi, in modi e campi diversi.<br/>Ecco alcuni esempi.",
         "illustration": {
           "name": "glasses.png",
-          "position": "left"
+          "position": "left",
+          "desktop_tweaks": "transform: translate(20px, -200px) rotate(-30deg) scale(0.9)"
         }
       }
     },

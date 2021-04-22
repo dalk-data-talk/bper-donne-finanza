@@ -15,8 +15,8 @@
         </b-col>
       </b-row>
     </b-container>
-    <div v-if="$mq == 'desktop'" :class="['illustration-desktop', {'illustration-left' : content.position == 'left'}, {'illustration-right' : content.position == 'right'}]">
-      <img :src="'./images/illustrations/desktop/'+content.illustration.name"/>
+    <div v-if="$mq == 'desktop' && content.illustration" :class="['illustration-desktop', {'illustration-left' : content.illustration.position == 'left'}, {'illustration-right' : content.illustration.position == 'right'}]">
+      <img :src="'./images/illustrations/desktop/'+content.illustration.name" :style="content.illustration.desktop_tweaks"/>
     </div>
   </div>
 </template>
