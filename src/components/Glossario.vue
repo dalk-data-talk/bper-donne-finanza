@@ -40,7 +40,7 @@ export default {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      padding: 0 100px;
+      padding: 100px 100px;
     }
 }
 </style>
