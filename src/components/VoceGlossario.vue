@@ -80,7 +80,7 @@ export default {
       height: 18px;
       background-color: $bper-verde-scuro;
       border-radius: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%) translateY(-2px);
       box-shadow: $bper-dropdown-shadow;
     }
     .line{
