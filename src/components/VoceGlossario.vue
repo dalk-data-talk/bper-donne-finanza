@@ -12,6 +12,7 @@
               </div>
             </div>
           </div>
+          <div class="dot"></div>
         </b-col>
       </b-row>
     </b-container>
@@ -71,6 +72,17 @@ export default {
         padding-bottom: 21px;
       }
     }
+    .dot{
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      width: 18px;
+      height: 18px;
+      background-color: $bper-verde-scuro;
+      border-radius: 50%;
+      transform: translate(-50%,-50%);
+      box-shadow: $bper-dropdown-shadow;
+    }
     .line{
       border:none;
       border-top: 1px dashed $bper-verde-scuro;
@@ -98,6 +110,7 @@ export default {
   and (orientation: landscape){
     .voce-glossario-container{
       width: calc(100%/2);
+      padding-bottom: 56px;
       .container{
         .box{
         }
