@@ -6,6 +6,9 @@
           <div class="box">
             <div class="title" v-html="content.title"></div>
             <div class="description" v-html="content.description"></div>
+            <div v-if="content.img_legend" class="img-legend">
+              <img :src="'./images/'+content.img_legend" alt="">
+            </div>
             <div class="source" v-html="content.source"></div>
           </div>
         </b-col>
@@ -48,6 +51,14 @@ export default {
       text-align: left;
       padding-top: 18px;
       text-transform: uppercase;
+    }
+    .img-legend{
+      position: relative;
+      padding-top: 21px;
+      padding-bottom: 12px;
+      img{
+        width: 80%;
+      }
     }
     .description{
       @include viz-note-description--desktop;

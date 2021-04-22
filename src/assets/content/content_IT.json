@@ -97,7 +97,8 @@
       "type": "Viz",
       "content": {
         "title": "Alfabetizzazione in Italia per genere",
-        "description": "Punteggi medi di alfabetizzazione finanziaria e delle sue componenti (2017-2020)<br/><br/><span style='font-weight: 600;'>FL</span> (Financial Literacy)<br/><span style='font-weight: 600;'>FK</span> (Financial Knowledge)<br/><span style='font-weight: 600;'>FA</span> (Financial Attitude)<br/><span style='font-weight: 600;'>FB</span> (Financial Behaviour)<br/><br/><span style='font-weight: 600;'>FL</span> = FK + FA + FB",
+        "description": "Punteggi medi di alfabetizzazione finanziaria e delle sue componenti<br/>(2017-2020)",
+        "img_legend": "viz-1-legend-desktop.png",
         "mobile": ["viz-2.png"],
         "source": "Fonte: L’alfabetizzazione finanziaria degli italiani: i risultati dell’indagine della Banca d’Italia del 2020",
         "type_desktop": 1,
