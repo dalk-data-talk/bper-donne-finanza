@@ -1,6 +1,8 @@
 <template>
   <div class="glossario-container">
     <VoceGlossario v-for="(voce,v) in content.voci" :key="v" :content="voce"/>
+    <div class="horizontal-line-1"/>
+    <div class="horizontal-line-2"/>
     <div class="vertical-line"></div>
   </div>
 </template>
@@ -32,6 +34,9 @@ export default {
   position: relative;
   padding-bottom: 24px;
   height: 100%;
+  .horizontal-line-1{
+    display: none;
+  }
   .vertical-line{
     position: absolute;
     top: 0px;
@@ -54,6 +59,25 @@ export default {
       flex-direction: row;
       flex-wrap: wrap;
       padding: 100px 100px;
+      .horizontal-line-1{
+        position: absolute;
+        width: 100%;
+        top: 25%;
+        left: 0px;
+        height: 1px;
+        display: block;
+        border-top: $bper-dash;
+        transform: translateY(-2px);
+      }
+      .horizontal-line-2{
+        position: absolute;
+        width: 100%;
+        top: calc(65%);
+        left: 0px;
+        height: 1px;
+        display: block;
+        border-top: $bper-dash;
+      }
     }
 }
 </style>
