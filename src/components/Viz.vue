@@ -86,7 +86,9 @@ export default {
     padding-bottom: 24px;
   }
   .mobile_legend{
+    position: relative;
     display: flex;
+    width: 100%;
     justify-content: center;
     padding-bottom: 32px;
     padding-left: 21px;
