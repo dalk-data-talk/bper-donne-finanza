@@ -87,16 +87,14 @@ export default {
   }
   .mobile_legend{
     position: relative;
-    display: flex;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     padding-bottom: 32px;
     padding-left: 21px;
     padding-right: 21px;
     img{
       position: relative;
-      width: 100%;
+      max-width: 300px;
+      height: auto;
     }
   }
   .container-img{
