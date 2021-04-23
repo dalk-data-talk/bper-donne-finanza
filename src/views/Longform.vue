@@ -1,5 +1,5 @@
 <template>
-  <div class="longform">
+  <div class="longform" style="overflow-x: hidden!important;">
      <transition name="slide-fade">
       <LoadingPage v-if="isLoading" v-on:finishedLoadingAnimation="finishedAnimation"/>
       <LongformContent v-else/>

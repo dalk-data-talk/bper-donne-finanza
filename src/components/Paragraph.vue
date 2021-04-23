@@ -92,6 +92,7 @@ export default {
     position: absolute;
     right: 0px;
     img{
+      position: relative;
       width: 100px;
     }
   }
@@ -127,6 +128,7 @@ export default {
 @import "@/assets/scss/bper-fonts.scss";
 @import "@/assets/scss/colors.scss";
 .paragraph-container{
+
   .row{
     .text{
       .bold{
