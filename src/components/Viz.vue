@@ -89,6 +89,7 @@ export default {
     position: relative;
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: center;
     padding-bottom: 32px;
     padding-left: 21px;
