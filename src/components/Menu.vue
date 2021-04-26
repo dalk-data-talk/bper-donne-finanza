@@ -7,9 +7,18 @@
         <MenuModal v-show="menuModalOpen" v-scroll-lock="menuModalOpen" v-on:scrollChapter="onScrollChapter"/>
       </transition>
     </div>
-    <div v-else>
+    <!-- menu desktop v1 -->
+    <!-- <div v-else>
       <div class="menu-desktop">
         <div class="element" v-for="(chapter, c) in content" :key="c" @click="goToChapter('#section-opening-'+(c+1))">{{chapter}}</div>
+      </div>
+    </div> -->
+    <div v-else>
+      <div class="menu-desktop-v2">
+        <div class="chapter" v-for="(chapter, c) in content" :key="c" @click="goToChapter('#section-opening-'+(c+1))">
+          <div class="element"></div>
+          <div class="line"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -108,6 +117,51 @@ export default {
   }
   .element:last-child{
     border-right: none;
+  }
+}
+
+.menu-desktop-v2{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 100vh;
+  background-color: white;
+  border-right: 1px solid $bper-verde-scuro;
+  z-index: 9999;
+  .chapter{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .element{
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 1px solid $bper-grigio-caldo-5;
+      margin-bottom: 12px;
+    }
+    :hover{
+      background-color: $bper-verde-chiaro;
+      cursor: pointer;
+    }
+    .line{
+      width: 1px;
+      height: 60px;
+      background-color: transparent;
+      border-right: $bper-dash;
+      margin-bottom: 12px;
+    }
+    &:last-child{
+      .line{
+        display: none;
+      }
+    }
   }
 }
 
