@@ -2,9 +2,13 @@
   <div class="menu-container">
     <!-- menu mobile -->
     <div v-if="$mq != 'desktop'" :class="['menu', {'menu-shown' : menuModalOpen}]">
-      <div @click="clickBurger">button</div>
+      <div class="burger-icon" @click="clickBurger">
+        <img :src="'./images/burger-menu.png'" alt="">
+      </div>
       <transition name="fade">
-        <MenuModal v-show="menuModalOpen" v-scroll-lock="menuModalOpen" v-on:scrollChapter="onScrollChapter"/>
+        <MenuModal :content="content" v-show="menuModalOpen" v-scroll-lock="menuModalOpen" v-on:scrollChapter="onScrollChapter"
+        v-on:closeMenu="onCloseMenu"
+        />
       </transition>
     </div>
     <!-- menu desktop v1 -->
@@ -15,11 +19,6 @@
     </div> -->
     <div v-else>
       <scrollactive class="menu-desktop-v2">
-        <!-- <a v-for="(chapter, c) in content" :key="c" :href="'#section-opening-'+(c+1)" class="scrollactive-item">Home</a> -->
-        <!-- <div class="chapter scrollactive-item" v-for="(chapter, c) in content" :key="c" @click="goToChapter('#section-opening-'+(c+1))" :data-section-selector="'#section-opening-'+(c+1)">
-          <div class="element"></div>
-          <div class="line"></div>
-        </div> -->
         <div class="chapter" v-for="(chapter, c) in content" :key="c" :data-section-selector="'#section-opening-'+(c+1)">
           <a class="element scrollactive-item" :href="'#section-opening-'+(c+1)"></a>
           <div class="line"></div>
@@ -65,6 +64,9 @@ export default {
     onScrollChapter(chapter){
       this.goToChapter(chapter)
     },
+    onCloseMenu(){
+      this.menuModalOpen = false
+    },
     goToChapter(chapter){
       this.cancelScroll = this.$scrollTo(chapter, 2000, this.options)
       this.menuModalOpen = false
@@ -85,16 +87,28 @@ export default {
 @import "@/assets/scss/colors.scss";
 @import "@/assets/scss/bper-fonts.scss";
 .menu-container{
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 .menu{
   position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   top: 0px;
   left: 0px;
   width: 100vw;
   height: 60px;
   background-color: $bper-bianco;
+  padding: 21px;
   z-index: 9999;
+  box-shadow: $bper-dropdown-shadow;
+  .burger-icon{
+    position: relative;
+    width: 32px;
+    img{
+      width: 100%;
+    }
+  }
 }
 .menu-shown{
   z-index: 9999;
