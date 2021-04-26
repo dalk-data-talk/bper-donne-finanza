@@ -14,18 +14,24 @@
       </div>
     </div> -->
     <div v-else>
-      <div class="menu-desktop-v2">
-        <div class="chapter" v-for="(chapter, c) in content" :key="c" @click="goToChapter('#section-opening-'+(c+1))">
+      <scrollactive class="menu-desktop-v2">
+        <!-- <a v-for="(chapter, c) in content" :key="c" :href="'#section-opening-'+(c+1)" class="scrollactive-item">Home</a> -->
+        <!-- <div class="chapter scrollactive-item" v-for="(chapter, c) in content" :key="c" @click="goToChapter('#section-opening-'+(c+1))" :data-section-selector="'#section-opening-'+(c+1)">
           <div class="element"></div>
           <div class="line"></div>
+        </div> -->
+        <div class="chapter" v-for="(chapter, c) in content" :key="c" :data-section-selector="'#section-opening-'+(c+1)">
+          <a class="element scrollactive-item" :href="'#section-opening-'+(c+1)"></a>
+          <div class="line"></div>
         </div>
-      </div>
+      </scrollactive>
     </div>
   </div>
 </template>
 
 <script>
 import MenuModal from '../components/MenuModal.vue'
+import Scrollactive from 'vue-scrollactive/src/scrollactive.vue';
 export default {
   name: 'Intro',
   props: ["content"],
@@ -68,7 +74,8 @@ export default {
     }
   },
   components: {
-    MenuModal
+    MenuModal,
+    Scrollactive
   }
 };
 </script>
@@ -161,6 +168,9 @@ export default {
       .line{
         display: none;
       }
+    }
+    .is-active{
+      background-color: $bper-verde-chiaro;
     }
   }
 }

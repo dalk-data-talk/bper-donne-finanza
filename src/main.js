@@ -8,12 +8,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './ml'
 import VueMq from 'vue-mq'
+import Scrollactive from 'vue-scrollactive/src/scrollactive.vue';
 
 Vue.use(VScrollLock)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(VueScrollTo)
 Vue.use(VueCarousel);
+Vue.use(Scrollactive);
 
 Vue.use(VueMq, {
   breakpoints: { // default breakpoints - customize this
