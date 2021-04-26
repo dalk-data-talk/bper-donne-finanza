@@ -102,7 +102,7 @@ export default {
     flex-direction: column;
     align-items: center;
     .img{
-      max-width: 300px;
+      max-width: 340px;
       margin-bottom: 24px;
     }
   }
