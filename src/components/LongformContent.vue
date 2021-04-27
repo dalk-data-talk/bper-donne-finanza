@@ -53,6 +53,6 @@ export default {
 @import "@/assets/scss/fonts.scss";
 .longform-content{
   background-color: $bper-bianco;
-  padding-top: 100px;
+  padding-top: 48px;
 }
 </style>
