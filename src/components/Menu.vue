@@ -1,7 +1,7 @@
 <template>
   <div class="menu-container">
-    <!-- menu mobile -->
-    <div v-if="$mq != 'desktop'" :class="['menu', {'menu-shown' : menuModalOpen}]">
+    <!-- menu mobile v1 -->
+    <!-- <div v-if="$mq != 'desktop'" :class="['menu', {'menu-shown' : menuModalOpen}]">
       <div class="burger-icon" @click="clickBurger">
         <img :src="'./images/burger-menu.png'" alt="">
       </div>
@@ -10,6 +10,14 @@
         v-on:closeMenu="onCloseMenu"
         />
       </transition>
+    </div> -->
+    <!-- menu mobile v2 -->
+    <div v-if="$mq != 'desktop'" :class="['menu-v2']">
+      <scrollactive :offset="100">
+        <div class="chapter" v-for="(chapter, c) in content" :key="c" :data-section-selector="'#section-opening-'+(c+1)">
+          <a class="element scrollactive-item" :href="'#section-opening-'+(c+1)"></a>
+        </div>
+      </scrollactive>
     </div>
     <!-- menu desktop v1 -->
     <!-- <div v-else>
@@ -17,8 +25,9 @@
         <div class="element" v-for="(chapter, c) in content" :key="c" @click="goToChapter('#section-opening-'+(c+1))">{{chapter}}</div>
       </div>
     </div> -->
+    <!-- menu desktop v2 -->
     <div v-else>
-      <scrollactive class="menu-desktop-v2">
+      <scrollactive class="menu-desktop-v2" :offset="100">
         <div class="chapter" v-for="(chapter, c) in content" :key="c" :data-section-selector="'#section-opening-'+(c+1)">
           <a class="element scrollactive-item" :href="'#section-opening-'+(c+1)"></a>
           <div class="line"></div>
@@ -29,7 +38,6 @@
 </template>
 
 <script>
-import MenuModal from '../components/MenuModal.vue'
 import Scrollactive from 'vue-scrollactive/src/scrollactive.vue';
 export default {
   name: 'Intro',
@@ -76,7 +84,6 @@ export default {
     }
   },
   components: {
-    MenuModal,
     Scrollactive
   }
 };
@@ -86,9 +93,6 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/scss/colors.scss";
 @import "@/assets/scss/bper-fonts.scss";
-.menu-container{
-  margin-bottom: 10px;
-}
 .menu{
   position: fixed;
   display: flex;
@@ -182,6 +186,38 @@ export default {
       .line{
         display: none;
       }
+    }
+    .is-active{
+      background-color: $bper-verde-chiaro;
+    }
+  }
+}
+
+.menu-v2{
+  position: fixed;
+  bottom: 20px;
+  height: auto;
+  background-color: $bper-bianco;
+  z-index: 10;
+  box-shadow: $bper-dropdown-shadow;
+  border-radius: 0px 10px 10px 0px;
+  padding: 0 4px;
+  .chapter{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border-bottom: $bper-dash;
+    .element{
+      position: relative;
+      width: 18px;
+      height: 18px;
+      background-color: transparent;
+      border: 1px solid $bper-verde-scuro;
+      border-radius: 50%;
+    }
+    &:last-child{
+      border-bottom: none;
     }
     .is-active{
       background-color: $bper-verde-chiaro;
