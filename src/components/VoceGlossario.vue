@@ -34,7 +34,6 @@ export default {
     gsap.registerPlugin(ScrollTrigger);
     gsap.set("#" + this.content.id + " .container" ,{autoAlpha: 0, x: -50, skewX: -10});
     this.scrollAnimation();
-    console.log(this.content.id)
   },
   methods: {
     scrollAnimation() {
