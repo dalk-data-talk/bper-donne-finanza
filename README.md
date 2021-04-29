@@ -22,4 +22,7 @@ Il sito/portfolio dello studio di design Antara viene usato come riferimento per
 ### Demo
 [Link](https://dalkdatatalk.github.io/bper-donne-finanza/)
 
+### Online
+[Link](https://wealth.bper.it/longform-donna-finanza)
+
 Un progetto a cura di [Dalk](https://datatalk.it)
